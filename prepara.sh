@@ -1,3 +1,5 @@
+#prepare the root for device kernel and vendor
+cd ..
 mkdir ./device/samsung
 mkdir ./kernel/samsung
 mkdir ./vendor/samsung
