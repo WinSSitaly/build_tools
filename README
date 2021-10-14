@@ -9,7 +9,7 @@ Description of scripts:
 -------------
 resync - reset all changes in ROM sources, sync and get prebuilts. Use "-o" to reset changes only.
 
-patch - patch ROM sources.
+patch - patch ROM sources. (no more)
 
 build - build ROM. It asks for cleaning of out directory (make clean) and device (i9105 or i9105p or i9152 or i9082), then build for chosen device. Also it handles 1st option ("i9105" or "i9105p" or "s2plus" or "i9152" or "i9082"). To build with cleaning use "-c" as a 2nd option. To build boot image (or recovery image) for device defined in 1st option w/o whole ROM building use 2nd option "-b" ("-r" for recovery).
 
