@@ -35,5 +35,3 @@ hardware/samsung/ril/libril/include/telephony/ril_commands_vendor.h:17:6: error:
 # ifeq ($(RIL_PATH),$(call project-path-for,ril))
 # include $(call first-makefiles-under,$(RIL_PATH))
 # endif
-
-/device/samsung//device.mk
