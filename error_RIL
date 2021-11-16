@@ -4,3 +4,36 @@ FAILED: /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/SHARE
 In file included from hardware/samsung/ril/libril/ril.cpp:213:
 hardware/samsung/ril/libril/include/telephony/ril_commands_vendor.h:17:6: error: use of undeclared identifier 'RIL_OEM_REQUEST_BASE'
     {RIL_OEM_REQUEST_BASE, NULL}, // RIL_OEM_REQUEST_BASE should be defined as 10000 in ril.h
+    
+    
+    NUKED
+    
+/hardware/samsung/Android.mk
+
+#Comment out RIL
+
+#ifeq ($(BOARD_VENDOR),samsung)
+#include $(SAM_ROOT)/ril/Android.mk
+#endif
+
+/hardware/ril/Android.mk
+
+#Comment out RIL 
+
+# RIL_PATH := $(call my-dir)
+
+# ifeq ($(RIL_PATH),$(call project-path-for,ril))
+# include $(call first-makefiles-under,$(RIL_PATH))
+# endif
+
+/hardware/ril-caf/Android.mk
+
+#Comment out RIL 
+
+# RIL_PATH := $(call my-dir)
+
+# ifeq ($(RIL_PATH),$(call project-path-for,ril))
+# include $(call first-makefiles-under,$(RIL_PATH))
+# endif
+
+/device/samsung//device.mk
