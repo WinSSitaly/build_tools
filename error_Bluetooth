@@ -75,3 +75,5 @@ ERROR: /home/ivan/Esperimenti/i9105p_los151/packages/apps/Bluetooth/src/com/andr
 ERROR: /home/ivan/Esperimenti/i9105p_los151/packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1161.14: SapApi cannot be resolved to a variable
 ERROR: /home/ivan/Esperimenti/i9105p_los151/packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1163.14: SapApi cannot be resolved to a variable
 ERROR: /home/ivan/Esperimenti/i9105p_los151/packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapRilReceiver.java:9.8: The import org.android cannot be resolved
+
+how to fix?
