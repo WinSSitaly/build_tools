@@ -77,3 +77,7 @@ ERROR: /home/ivan/Esperimenti/i9105p_los151/packages/apps/Bluetooth/src/com/andr
 ERROR: /home/ivan/Esperimenti/i9105p_los151/packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapRilReceiver.java:9.8: The import org.android cannot be resolved
 
 how to fix?
+
+FIX
+
+set ANDROID_COMPILE_WITH_JACK := false in ./build/core/combo/javac.mk
