@@ -1,0 +1,1035 @@
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=8.1.0
+TARGET_PRODUCT=lineage_i9105p
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a9
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.8.0-41-generic-x86_64-with-Ubuntu-20.04-focal
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=OPM7.181205.001
+OUT_DIR=/home/ivan/Esperimenti/i9105p_los151/out
+============================================
+ninja: no work to do.
+ninja: no work to do.
+build/core/combo/javac.mk was modified, regenerating...
+[326/1068] including ./frameworks/av/camera/Android.mk ...
+frameworks/av/camera/cameraserver/Android.mk:18: warning: Target has integrated cameraserver into mediaserver. This is weakening security measures introduced in 7.0
+[739/1068] including ./system/sepolicy/Android.mk ...
+./system/sepolicy/Android.mk:99: warning: BOARD_SEPOLICY_VERS not specified, assuming current platform version
+[1068/1068] including ./vendor/qcom/opensource/rcs-service/Android.mk ...
+build/core/Makefile:34: warning: overriding commands for target `/home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/system/bin/atrace'
+build/core/base_rules.mk:391: warning: ignoring old commands for target `/home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/system/bin/atrace'
+build/core/Makefile:34: warning: overriding commands for target `/home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/system/vendor/lib/hw/lights.capri.so'
+build/core/base_rules.mk:391: warning: ignoring old commands for target `/home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/system/vendor/lib/hw/lights.capri.so'
+[  1% 34/1839] Building Kernel Config
+make: Entering directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+  GEN     /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/KERNEL_OBJ/Makefile
+arch/arm/mach-capri/custom_boards/Kconfig:19:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:25:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:31:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:37:warning: defaults for choice values not supported
+warning: (ARM) selects SECCOMP_FILTER which has unmet direct dependencies (HAVE_ARCH_SECCOMP_FILTER && SECCOMP && NET)
+warning: (ARM) selects SECCOMP_FILTER which has unmet direct dependencies (HAVE_ARCH_SECCOMP_FILTER && SECCOMP && NET)
+#
+# configuration written to .config
+#
+make: Leaving directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+make: Entering directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+  GEN     /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --savedefconfig=defconfig Kconfig
+arch/arm/mach-capri/custom_boards/Kconfig:19:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:25:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:31:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:37:warning: defaults for choice values not supported
+warning: (ARM) selects SECCOMP_FILTER which has unmet direct dependencies (HAVE_ARCH_SECCOMP_FILTER && SECCOMP && NET)
+warning: (ARM) selects SECCOMP_FILTER which has unmet direct dependencies (HAVE_ARCH_SECCOMP_FILTER && SECCOMP && NET)
+make: Leaving directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+[ 14% 268/1821] Building Kernel
+make: Entering directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1414: attenzione: sovrascrittura del set di istruzioni per l'obiettivo «clean»
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1180: attenzione: ignorato il set di istruzioni obsoleto per l'obiettivo «clean»
+  GEN     /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+arch/arm/mach-capri/custom_boards/Kconfig:19:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:25:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:31:warning: defaults for choice values not supported
+arch/arm/mach-capri/custom_boards/Kconfig:37:warning: defaults for choice values not supported
+warning: (ARM) selects SECCOMP_FILTER which has unmet direct dependencies (HAVE_ARCH_SECCOMP_FILTER && SECCOMP && NET)
+warning: (ARM) selects SECCOMP_FILTER which has unmet direct dependencies (HAVE_ARCH_SECCOMP_FILTER && SECCOMP && NET)
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1414: attenzione: sovrascrittura del set di istruzioni per l'obiettivo «clean»
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1180: attenzione: ignorato il set di istruzioni obsoleto per l'obiettivo «clean»
+  CHK     include/linux/version.h
+  GEN     /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/KERNEL_OBJ/Makefile
+  CHK     include/generated/utsrelease.h
+  Using /home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common as source for kernel
+make[2]: «include/generated/mach-types.h» è aggiornato.
+  CALL    /home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  GZIP    kernel/config_data.gz
+  IKCFG   kernel/config_data.h
+  CC      kernel/configs.o
+  LD      kernel/built-in.o
+++++++++++++++++++++++
+CONFIG_ISP = n
+obj = drivers/char/broadcom/isp
+++++++++++++++++++++++
+CONFIG_UNICAM = n
+obj = drivers/char/broadcom/unicam
+++++++++++++++++++++++
+CONFIG_V3D = n
+obj = drivers/char/broadcom/v3d
+++++++++++++++++++++++
+CONFIG_VCE = n
+obj = drivers/char/broadcom/vce
+VCHIQ_PLATFORM_CONFIG = capri-bi
+Building for MAP build system
+CONFIG_ARCH_KONA    = y
+echo "(new) Generating drivers/misc/vc04_services/interface/vchiq_arm/vchiq_version.c ..."
+(new) Generating drivers/misc/vc04_services/interface/vchiq_arm/vchiq_version.c ...
+perl /home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/drivers/misc/vc04_services/interface/vchiq_arm/vchiq_genversion vchiq /home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common > drivers/misc/vc04_services/interface/vchiq_arm/vchiq_version.c
+Version 3ef5098006d66adc0748d34d1fd2fbb2151694ec (tainted)
+  CC      drivers/misc/vc04_services/interface/vchiq_arm/vchiq_version.o
+  LD      drivers/misc/vc04_services/vc-vchiq.o
+  LD      drivers/misc/vc04_services/vc-vchiq-memdrv-kona.o
+  LD      drivers/misc/vc04_services/built-in.o
+  LD      drivers/misc/built-in.o
+  LD      drivers/built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: modpost: Found 4 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  LD      .tmp_vmlinux1
+  KSYM    .tmp_kallsyms1.S
+  AS      .tmp_kallsyms1.o
+  LD      .tmp_vmlinux2
+  KSYM    .tmp_kallsyms2.S
+  AS      .tmp_kallsyms2.o
+  LD      vmlinux
+  SYSMAP  System.map
+  SYSMAP  .tmp_System.map
+  OBJCOPY arch/arm/boot/Image
+  Kernel: arch/arm/boot/Image is ready
+  GZIP    arch/arm/boot/compressed/piggy.gzip
+  SHIPPED arch/arm/boot/compressed/lib1funcs.S
+  SHIPPED arch/arm/boot/compressed/longlong.h
+  AS      arch/arm/boot/compressed/lib1funcs.o
+  SHIPPED arch/arm/boot/compressed/divdi3.c
+  CC      arch/arm/boot/compressed/divdi3.o
+  AS      arch/arm/boot/compressed/piggy.gzip.o
+  LD      arch/arm/boot/compressed/vmlinux
+  OBJCOPY arch/arm/boot/zImage
+  Kernel: arch/arm/boot/zImage is ready
+make: Leaving directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+Building DTBs
+make: Entering directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1414: attenzione: sovrascrittura del set di istruzioni per l'obiettivo «clean»
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1180: attenzione: ignorato il set di istruzioni obsoleto per l'obiettivo «clean»
+make[2]: Nessuna operazione da eseguire per «arch/arm/boot/dtbs».
+make: Leaving directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+Building Kernel Modules
+make: Entering directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1414: attenzione: sovrascrittura del set di istruzioni per l'obiettivo «clean»
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1180: attenzione: ignorato il set di istruzioni obsoleto per l'obiettivo «clean»
+  GEN     /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/KERNEL_OBJ/Makefile
+  CHK     include/linux/version.h
+  CHK     include/generated/utsrelease.h
+  Using /home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common as source for kernel
+++++++++++++++++++++++
+CONFIG_ISP = n
+obj = drivers/char/broadcom/isp
+++++++++++++++++++++++
+CONFIG_UNICAM = n
+obj = drivers/char/broadcom/unicam
+++++++++++++++++++++++
+CONFIG_V3D = n
+obj = drivers/char/broadcom/v3d
+++++++++++++++++++++++
+CONFIG_VCE = n
+obj = drivers/char/broadcom/vce
+make[2]: «include/generated/mach-types.h» è aggiornato.
+  CALL    /home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/scripts/checksyscalls.sh
+VCHIQ_PLATFORM_CONFIG = capri-bi
+Building for MAP build system
+CONFIG_ARCH_KONA    = y
+++++++++++++++++++++++
+CONFIG_ISP = n
+obj = drivers/char/broadcom/isp
+++++++++++++++++++++++
+CONFIG_UNICAM = n
+obj = drivers/char/broadcom/unicam
+++++++++++++++++++++++
+CONFIG_V3D = n
+obj = drivers/char/broadcom/v3d
+++++++++++++++++++++++
+CONFIG_VCE = n
+obj = drivers/char/broadcom/vce
+VCHIQ_PLATFORM_CONFIG = capri-bi
+Building for MAP build system
+CONFIG_ARCH_KONA    = y
+  Building modules, stage 2.
+  MODPOST 3 modules
+make: Leaving directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+[ 14% 271/1821] build INSTALLED_KERNEL_MODULES
+Installing Kernel Modules
+make: Entering directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1414: attenzione: sovrascrittura del set di istruzioni per l'obiettivo «clean»
+/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common/Makefile:1180: attenzione: ignorato il set di istruzioni obsoleto per l'obiettivo «clean»
+  INSTALL drivers/char/broadcom/gist.ko
+  INSTALL drivers/char/broadcom/sigmorph.ko
+  INSTALL drivers/scsi/scsi_wait_scan.ko
+  DEPMOD  3.0.101+
+Warning: you may need to install module-init-tools
+See http://www.codemonkey.org.uk/docs/post-halloween-2.6.txt
+make: Leaving directory '/home/ivan/Esperimenti/i9105p_los151/kernel/samsung/galaxys2plus-common'
+depmod: WARNING: could not open /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/modules.order: No such file or directory
+depmod: WARNING: could not open /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0/modules.builtin: No such file or directory
+[ 14% 273/1821] Target boot image: /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/boot.img
+/home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/boot.img maxsize=8380416 blocksize=135168 total=5980160 reserve=270336
+Made boot image: /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/boot.img
+[ 15% 280/1821] Copying baseline ramdisk...
+Modifying ramdisk contents...
+----- Making uncompressed recovery ramdisk ------
+[ 17% 325/1821] ----- Compressing recovery ramdisk with lzma ------
+----- Making recovery image ------
++/home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/recovery.img maxsize=8380416 blocksize=135168 total=8044544 reserve=270336
+----- Made recovery image: /home/ivan/Esperimenti/i9105p_los151/out/target/product/i9105p/recovery.img --------
+[ 18% 328/1821] Docs droiddoc: /home/ivan/Esperimenti/i9105p_los151/out/target/common/docs/apache-http-stubs-gen
+external/apache-http/android/src/com/android/internal/http/multipart/Part.java:61: warning 113: Field com.android.internal.http.multipart.Part.BOUNDARY: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/android/src/com/android/internal/http/multipart/Part.java:67: warning 113: Field com.android.internal.http.multipart.Part.BOUNDARY_BYTES: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/android/src/com/android/internal/http/multipart/Part.java:128: warning 113: Method com.android.internal.http.multipart.Part.getBoundary: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/codec/language/Soundex.java:194: warning 113: Method org.apache.commons.codec.language.Soundex.getMaxLength: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/codec/language/Soundex.java:231: warning 113: Method org.apache.commons.codec.language.Soundex.setMaxLength: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/codec/net/URLCodec.java:356: warning 113: Method org.apache.commons.codec.net.URLCodec.getEncoding: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/logging/impl/LogFactoryImpl.java:513: warning 113: Method org.apache.commons.logging.impl.LogFactoryImpl.getLogClassName: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/logging/impl/LogFactoryImpl.java:538: warning 113: Method org.apache.commons.logging.impl.LogFactoryImpl.getLogConstructor: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/logging/impl/LogFactoryImpl.java:556: warning 113: Method org.apache.commons.logging.impl.LogFactoryImpl.isJdk13LumberjackAvailable: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/logging/impl/LogFactoryImpl.java:572: warning 113: Method org.apache.commons.logging.impl.LogFactoryImpl.isJdk14Available: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+external/apache-http/src/org/apache/commons/logging/impl/LogFactoryImpl.java:585: warning 113: Method org.apache.commons.logging.impl.LogFactoryImpl.isLog4JAvailable: @Deprecated annotation (not present) and @deprecated doc tag (present) do not match
+DroidDoc took 7 sec. to write docs to /home/ivan/Esperimenti/i9105p_los151/out/target/common/docs/apache-http-stubs-gen
+[ 32% 595/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BasicDreams_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BasicDreams_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BasicDreams_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BasicDreams_intermediates/classes-desugar.jar]
+[ 33% 608/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BluetoothMidiService_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BluetoothMidiService_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BluetoothMidiService_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BluetoothMidiService_intermediates/classes-desugar.jar]
+[ 33% 613/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BookmarkProvider_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BookmarkProvider_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BookmarkProvider_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BookmarkProvider_intermediates/classes-desugar.jar]
+[ 34% 623/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CaptivePortalLogin_intermediates/classes-desugar.jar]
+[ 34% 632/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CarrierDefaultApp_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CarrierDefaultApp_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CarrierDefaultApp_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CarrierDefaultApp_intermediates/classes-desugar.jar]
+[ 35% 641/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CertInstaller_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CertInstaller_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CertInstaller_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CertInstaller_intermediates/classes-desugar.jar]
+[ 35% 646/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CompanionDeviceManager_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CompanionDeviceManager_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CompanionDeviceManager_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/CompanionDeviceManager_intermediates/classes-desugar.jar]
+[ 36% 663/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DownloadProviderUi_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DownloadProviderUi_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DownloadProviderUi_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DownloadProviderUi_intermediates/classes-desugar.jar]
+[ 36% 665/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExtShared_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExtShared_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExtShared_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExtShared_intermediates/classes-desugar.jar]
+[ 37% 679/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/HTMLViewer_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/HTMLViewer_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/HTMLViewer_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/HTMLViewer_intermediates/classes-desugar.jar]
+[ 37% 687/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PacProcessor_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PacProcessor_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PacProcessor_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PacProcessor_intermediates/classes-desugar.jar]
+[ 37% 689/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/KeyChain_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/KeyChain_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/KeyChain_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/KeyChain_intermediates/classes-desugar.jar]
+[ 38% 703/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PicoTts_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PicoTts_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PicoTts_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PicoTts_intermediates/classes-desugar.jar]
+[ 39% 711/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintRecommendationService_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintRecommendationService_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintRecommendationService_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintRecommendationService_intermediates/classes-desugar.jar]
+[ 39% 713/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/UserDictionaryProvider_intermediates/classes-desugar.jar]
+[ 39% 725/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperBackup_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperBackup_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperBackup_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperBackup_intermediates/classes-desugar.jar]
+[ 44% 819/1821] Docs droiddoc: /home/ivan/Esperimenti/i9105p_los151/out/target/common/docs/api-stubs
+DroidDoc took 60 sec. to write docs to /home/ivan/Esperimenti/i9105p_los151/out/target/common/docs/api-stubs
+[ 45% 820/1821] Docs droiddoc: /home/ivan/Esperimenti/i9105p_los151/out/target/common/docs/system-api-stubs
+DroidDoc took 57 sec. to write docs to /home/ivan/Esperimenti/i9105p_los151/out/target/common/docs/system-api-stubs
+[ 54% 996/1821] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BackupRestoreConfirmation_intermediates/classes-desugar.jar]
+[ 54% 1001/1821] Compiling SDK Stubs: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[ 55% 1007/1821] Compiling SDK Stubs: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_system_stubs_current_intermediates/classes.jar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+[ 56% 1011/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BlockedNumberProvider_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BlockedNumberProvider_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BlockedNumberProvider_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BlockedNumberProvider_intermediates/classes-desugar.jar]
+[ 57% 1028/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BuiltInPrintService_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BuiltInPrintService_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_system_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BuiltInPrintService_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/BuiltInPrintService_intermediates/classes-desugar.jar] (filtered)
+[ 58% 1042/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/EasterEgg_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/EasterEgg_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/EasterEgg_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/EasterEgg_intermediates/classes-desugar.jar]
+[ 59% 1047/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Calendar_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Calendar_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Calendar_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Calendar_intermediates/classes-desugar.jar] (filtered)
+[ 59% 1051/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExactCalculator_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading input...
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExactCalculator_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 17457
+  Final number of library classes:    17457
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 1355
+  Final number of program classes:    547
+Writing output...
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExactCalculator_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/ExactCalculator_intermediates/classes-desugar.jar] (filtered)
+[ 59% 1055/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DeskClock_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DeskClock_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DeskClock_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/DeskClock_intermediates/classes-desugar.jar] (filtered)
+[ 60% 1078/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Exchange2_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Exchange2_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/sdk_v19_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Exchange2_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Exchange2_intermediates/classes-desugar.jar]
+[ 61% 1084/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Jelly_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Jelly_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Jelly_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Jelly_intermediates/classes-desugar.jar]
+[ 61% 1088/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Email_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Email_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/org.apache.http.legacy_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Email_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Email_intermediates/classes-desugar.jar] (filtered)
+[ 61% 1093/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LatinIME_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LatinIME_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LatinIME_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LatinIME_intermediates/classes-desugar.jar] (filtered)
+[ 61% 1094/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LiveWallpapersPicker_intermediates/classes-desugar.jar]
+[ 64% 1147/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LockClock_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LockClock_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LockClock_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/LockClock_intermediates/classes-desugar.jar] (filtered)
+[ 64% 1150/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PhotoTable_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PhotoTable_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PhotoTable_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PhotoTable_intermediates/classes-desugar.jar] (filtered)
+[ 65% 1168/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintSpooler_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintSpooler_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintSpooler_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/PrintSpooler_intermediates/classes-desugar.jar]
+[ 66% 1184/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Profiles_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Profiles_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Profiles_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Profiles_intermediates/classes-desugar.jar]
+[ 67% 1202/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Stk_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Stk_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Stk_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Stk_intermediates/classes-desugar.jar]
+[ 67% 1204/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Development_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Development_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android.test.runner_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/org.apache.http.legacy_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Development_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Development_intermediates/classes-desugar.jar]
+[ 68% 1209/1774] target Java: Bluetooth (/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes)
+FAILED: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes-full-debug.jar 
+/bin/bash -c "(rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes-full-debug.jar ) && (rm -rf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/anno ) && (mkdir -p /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/ ) && (mkdir -p /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/anno ) && (for f in  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/com.android.vcard_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/bluetooth.mapsapi_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/libprotobuf-java-micro_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes.jar; do if [ ! -f \$f ]; then echo Missing file \$f; exit 1; fi; unzip -qo \$f -d /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes; done ) && (rm -rf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/META-INF ) && (rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (touch /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (echo -n 'packages/apps/Bluetooth/src/com/android/bluetooth/BluetoothObexTransport.java packages/apps/Bluetooth/src/com/android/bluetooth/IObexConnectionHandler.java packages/apps/Bluetooth/src/com/android/bluetooth/ObexRejectServer.java packages/apps/Bluetooth/src/com/android/bluetooth/ObexServerSockets.java packages/apps/Bluetooth/src/com/android/bluetooth/SignedLongLong.java packages/apps/Bluetooth/src/com/android/bluetooth/Utils.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dp/A2dpService.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dp/A2dpStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/A2dpSinkService.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/A2dpSinkStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/A2dpSinkStreamHandler.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/mbs/A2dpMediaBrowserService.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AddressedMediaPlayer.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/Avrcp.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AvrcpConstants.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AvrcpHelperClasses.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AvrcpMediaRspInterface.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/BrowsedMediaPlayer.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/mockable/MediaController.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/AvrcpControllerService.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/AvrcpControllerStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/AvrcpPlayer.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/BrowseTree.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/PlayerApplicationSettings.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/RemoteDevice.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/TrackInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AbstractionLayer.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterApp.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterProperties.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterService.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterState.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/BondStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/Config.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/JniCallbacks.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/PhonePolicy.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/ProfileObserver.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/ProfileService.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/ServiceFactory.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AdvertiseHelper.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AdvertiseManager.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AdvtFilterOnFoundOnLostInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AppScanStats.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/CallbackInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ContextMap.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/FilterParams.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattDbElement.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattDebugUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattService.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattServiceConfig.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/HandleMap.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/PeriodicScanManager.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ScanClient.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ScanFilterQueue.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ScanManager.java packages/apps/Bluetooth/src/com/android/bluetooth/hdp/HealthService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/AtPhonebook.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/BluetoothCmeError.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetHalConstants.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetPhoneState.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientHalConstants.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientStateMachineFactory.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/NativeInterface.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/StackEvent.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientConference.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientConnection.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientConnectionService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientDeviceBlock.java packages/apps/Bluetooth/src/com/android/bluetooth/hid/HidDevService.java packages/apps/Bluetooth/src/com/android/bluetooth/hid/HidService.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAccountItem.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAccountLoader.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAppObserver.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAppParams.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapContent.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapContentObserver.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapConvoContactElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapConvoListing.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapConvoListingElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapFolderElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapMasInstance.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapMessageListing.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapMessageListingElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapObexServer.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapService.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSettings.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSettingsAdapter.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSettingsDataHolder.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSmsPdu.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessageEmail.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessageMime.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessageSms.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMnsObexClient.java packages/apps/Bluetooth/src/com/android/bluetooth/map/MapContact.java packages/apps/Bluetooth/src/com/android/bluetooth/map/MmsFileProvider.java packages/apps/Bluetooth/src/com/android/bluetooth/map/SmsMmsContacts.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MapClientService.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MasClient.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MceStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MnsObexServer.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MnsService.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/Bmessage.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/BmessageBuilder.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/BmessageParser.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/BmsgTokenizer.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/EventReport.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/FolderListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/Message.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/MessagesFilter.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/MessagesListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/ObexAppParameters.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/ObexTime.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/Request.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestGetFolderListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestGetMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestGetMessagesListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestPushMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestSetNotificationRegistration.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestSetPath.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBatch.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBtEnableActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBtEnablingActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBtErrorActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppHandoverReceiver.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppIncomingFileConfirmActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppLauncherActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppManager.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppNotification.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexClientSession.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexServerSession.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexSession.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppPreference.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppProvider.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppReceiveFileInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppReceiver.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppSendFileInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppService.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppShareInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransfer.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferAdapter.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferHistory.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppUtility.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothShare.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/Constants.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/TestActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/pan/BluetoothTetheringNetworkFactory.java packages/apps/Bluetooth/src/com/android/bluetooth/pan/PanService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapAuthenticator.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapCallLogComposer.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapConfig.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapObexServer.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapVcardManager.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/AuthenticationService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/Authenticator.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapObexAuthenticator.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapObexTransport.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapRequestPullPhoneBook.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapVcardList.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/CallLogPullRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/ObexAppParameters.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PbapClientConnectionHandler.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PbapClientService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PbapClientStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PhonebookEntry.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PhonebookPullRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PullRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapRilReceiver.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapServer.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapService.java packages/apps/Bluetooth/src/com/android/bluetooth/sdp/SdpManager.java packages/apps/Bluetooth/src/com/android/bluetooth/util/DevicePolicyUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/util/Interop.java packages/apps/Bluetooth/src/com/android/bluetooth/util/NumberUtils.java ' >> /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (if [ -d \"/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/src\" ]; then find /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/src -name '*.java' -and -not -name '.*' >> /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list; fi ) && (find /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/proto -name '*.java' -and -not -name '.*' >> /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (tr ' ' '\\n' < /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list | build/tools/normalize_path.py | sort -u > /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq ) && (if [ -s /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq ] ; then /home/ivan/Esperimenti/i9105p_los151/out/soong/host/linux-x86/bin/soong_javac_wrapper javac -J-Xmx2048M -Xmaxerrs 9999999 -encoding UTF-8  -bootclasspath /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar -classpath /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/javax.obex_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/libprotobuf-java-micro_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/com.android.vcard_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/bluetooth.mapsapi_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/libprotobuf-java-micro_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/classes.jar  -extdirs \"\" -d /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes -s /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/anno -g  -source 1.8 -target 1.8 -g:source,lines  \\@/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq || ( rm -rf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes ; exit 41 ) fi ) && (rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq ) && (jar -cf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes-full-debug.jar -C /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes . )"
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:14: error: package org.android.btsap does not exist
+import org.android.btsap.SapApi;
+                        ^
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:15: error: package org.android.btsap.SapApi does not exist
+import org.android.btsap.SapApi.*;
+^
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:811: error: cannot find symbol
+    public static SapMessage newInstance(MsgHeader msg) throws IOException {
+                                         ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:815: error: cannot find symbol
+    private SapMessage(MsgHeader msg) throws IOException {
+                       ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:834: error: cannot find symbol
+    private void createUnsolicited(MsgHeader msg)
+                                   ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:881: error: cannot find symbol
+    private void createSolicited(MsgHeader msg) throws IOException,
+                                 ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapRilReceiver.java:9: error: package org.android.btsap.SapApi does not exist
+import org.android.btsap.SapApi.MsgHeader;
+                               ^
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:357: error: reference to SapMessage is ambiguous
+        SapMessage newMessage = new SapMessage(requestType);
+                                ^
+  both constructor SapMessage(int) in SapMessage and constructor SapMessage(MsgHeader) in SapMessage match
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:819: error: cannot find symbol
+            case SapApi.UNSOL_RESPONSE:
+                 ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:822: error: cannot find symbol
+            case SapApi.RESPONSE:
+                 ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:842: error: cannot find symbol
+        case SapApi.RIL_SIM_SAP_STATUS:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:845: error: cannot find symbol
+            RIL_SIM_SAP_STATUS_IND indMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_STATUS_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:846: error: cannot find symbol
+                    RIL_SIM_SAP_STATUS_IND.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_STATUS_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:858: error: cannot find symbol
+        case SapApi.RIL_SIM_SAP_DISCONNECT:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:862: error: cannot find symbol
+            RIL_SIM_SAP_DISCONNECT_IND indMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_DISCONNECT_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:863: error: cannot find symbol
+                    RIL_SIM_SAP_DISCONNECT_IND.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_DISCONNECT_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:905: error: cannot find symbol
+            RIL_SIM_SAP_CONNECT_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:906: error: cannot find symbol
+                    RIL_SIM_SAP_CONNECT_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:913: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:916: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_CONNECT_OK_CALL_ONGOING:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:919: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_CONNECT_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:922: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_MSG_SIZE_TOO_LARGE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:925: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_MSG_SIZE_TOO_SMALL:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:943: error: cannot find symbol
+            RIL_SIM_SAP_APDU_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:944: error: cannot find symbol
+                    RIL_SIM_SAP_APDU_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:947: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:954: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:957: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:960: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:963: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SIM_NOT_READY:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:974: error: cannot find symbol
+            RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:975: error: cannot find symbol
+                        RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.parseFrom(
+                        ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:979: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:982: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:985: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:988: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:991: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SIM_NOT_READY:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1002: error: cannot find symbol
+            RIL_SIM_SAP_TRANSFER_ATR_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1003: error: cannot find symbol
+                    RIL_SIM_SAP_TRANSFER_ATR_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1009: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1012: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1015: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1018: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1021: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_ALREADY_POWERED_ON:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1024: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_DATA_NOT_AVAILABLE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1035: error: cannot find symbol
+            RIL_SIM_SAP_POWER_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1036: error: cannot find symbol
+                    RIL_SIM_SAP_POWER_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1039: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1042: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1045: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1048: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1051: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_ON:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1062: error: cannot find symbol
+            RIL_SIM_SAP_POWER_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1063: error: cannot find symbol
+                    RIL_SIM_SAP_POWER_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1066: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1069: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1072: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1075: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1078: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_ON:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1089: error: cannot find symbol
+            RIL_SIM_SAP_RESET_SIM_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1090: error: cannot find symbol
+                    RIL_SIM_SAP_RESET_SIM_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1093: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1096: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1099: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1102: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1113: error: cannot find symbol
+            RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1114: error: cannot find symbol
+                    RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.parseFrom(
+                    ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1118: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1126: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1129: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.RIL_E_SIM_DATA_NOT_AVAILABLE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1153: error: cannot find symbol
+        case SapApi.RIL_E_SUCCESS:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1155: error: cannot find symbol
+        case SapApi.RIL_E_CANCELLED:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1157: error: cannot find symbol
+        case SapApi.RIL_E_GENERIC_FAILURE:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1159: error: cannot find symbol
+        case SapApi.RIL_E_RADIO_NOT_AVAILABLE:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1161: error: cannot find symbol
+        case SapApi.RIL_E_INVALID_PARAMETER:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1163: error: cannot find symbol
+        case SapApi.RIL_E_REQUEST_NOT_SUPPORTED:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+76 errors
+[ 68% 1212/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WAPPushManager_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WAPPushManager_intermediates/classes-desugar.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WAPPushManager_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WAPPushManager_intermediates/classes-desugar.jar]
+[ 68% 1213/1774] Proguard: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperPicker_intermediates/classes-proguard.jar
+ProGuard, version 5.1
+Reading program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperPicker_intermediates/classes-desugar.jar] (filtered)
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar]
+Reading library jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar]
+Preparing output jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperPicker_intermediates/classes-proguard.jar]
+  Copying resources from program jar [/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/WallpaperPicker_intermediates/classes-desugar.jar] (filtered)
+[ 68% 1214/1774] target Java: messaging (/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/messaging_intermediates/classes)
+ninja: build stopped: subcommand failed.
+12:42:42 ninja failed with: exit status 1
+
+#### failed to build some targets (11:39 (mm:ss)) ####
