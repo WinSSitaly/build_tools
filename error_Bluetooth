@@ -5,3 +5,9 @@ FIX
 set ANDROID_COMPILE_WITH_JACK := false in ./build/core/combo/javac.mk
 
 
+Build log wouldn't help, need logcat or tombstones or something like that
+/data/tombstones
+from recovery ...
+Also ramoops
+/sys/fs/pstore/
+
