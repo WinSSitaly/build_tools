@@ -1,0 +1,435 @@
+[  5% 2637/45920] target Java: Bluetooth (/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes)
+FAILED: /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes-full-debug.jar 
+/bin/bash -c "(rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes-full-debug.jar ) && (rm -rf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/anno ) && (mkdir -p /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/ ) && (mkdir -p /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/anno ) && (for f in  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/com.android.vcard_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/bluetooth.mapsapi_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jar  /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/libprotobuf-java-micro_intermediates/classes.jar; do if [ ! -f \$f ]; then echo Missing file \$f; exit 1; fi; unzip -qo \$f -d /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes; done ) && (rm -rf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/META-INF ) && (rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (touch /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (echo -n 'packages/apps/Bluetooth/src/com/android/bluetooth/BluetoothObexTransport.java packages/apps/Bluetooth/src/com/android/bluetooth/IObexConnectionHandler.java packages/apps/Bluetooth/src/com/android/bluetooth/ObexRejectServer.java packages/apps/Bluetooth/src/com/android/bluetooth/ObexServerSockets.java packages/apps/Bluetooth/src/com/android/bluetooth/SignedLongLong.java packages/apps/Bluetooth/src/com/android/bluetooth/Utils.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dp/A2dpService.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dp/A2dpStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/A2dpSinkService.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/A2dpSinkStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/A2dpSinkStreamHandler.java packages/apps/Bluetooth/src/com/android/bluetooth/a2dpsink/mbs/A2dpMediaBrowserService.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AddressedMediaPlayer.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/Avrcp.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AvrcpConstants.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AvrcpHelperClasses.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/AvrcpMediaRspInterface.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/BrowsedMediaPlayer.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcp/mockable/MediaController.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/AvrcpControllerService.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/AvrcpControllerStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/AvrcpPlayer.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/BrowseTree.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/PlayerApplicationSettings.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/RemoteDevice.java packages/apps/Bluetooth/src/com/android/bluetooth/avrcpcontroller/TrackInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AbstractionLayer.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterApp.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterProperties.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterService.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/AdapterState.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/BondStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/Config.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/JniCallbacks.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/PhonePolicy.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/ProfileObserver.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/ProfileService.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java packages/apps/Bluetooth/src/com/android/bluetooth/btservice/ServiceFactory.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AdvertiseHelper.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AdvertiseManager.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AdvtFilterOnFoundOnLostInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/AppScanStats.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/CallbackInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ContextMap.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/FilterParams.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattDbElement.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattDebugUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattService.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/GattServiceConfig.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/HandleMap.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/PeriodicScanManager.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ScanClient.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ScanFilterQueue.java packages/apps/Bluetooth/src/com/android/bluetooth/gatt/ScanManager.java packages/apps/Bluetooth/src/com/android/bluetooth/hdp/HealthService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/AtPhonebook.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/BluetoothCmeError.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetHalConstants.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetPhoneState.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfp/HeadsetStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientHalConstants.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/HeadsetClientStateMachineFactory.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/NativeInterface.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/StackEvent.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientConference.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientConnection.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientConnectionService.java packages/apps/Bluetooth/src/com/android/bluetooth/hfpclient/connserv/HfpClientDeviceBlock.java packages/apps/Bluetooth/src/com/android/bluetooth/hid/HidDevService.java packages/apps/Bluetooth/src/com/android/bluetooth/hid/HidService.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAccountItem.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAccountLoader.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAppObserver.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapAppParams.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapContent.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapContentObserver.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapConvoContactElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapConvoListing.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapConvoListingElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapFolderElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapMasInstance.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapMessageListing.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapMessageListingElement.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapObexServer.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapService.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSettings.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSettingsAdapter.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSettingsDataHolder.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapSmsPdu.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessageEmail.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessageMime.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMapbMessageSms.java packages/apps/Bluetooth/src/com/android/bluetooth/map/BluetoothMnsObexClient.java packages/apps/Bluetooth/src/com/android/bluetooth/map/MapContact.java packages/apps/Bluetooth/src/com/android/bluetooth/map/MmsFileProvider.java packages/apps/Bluetooth/src/com/android/bluetooth/map/SmsMmsContacts.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MapClientService.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MasClient.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MceStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MnsObexServer.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/MnsService.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/Bmessage.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/BmessageBuilder.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/BmessageParser.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/BmsgTokenizer.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/EventReport.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/FolderListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/Message.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/MessagesFilter.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/MessagesListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/ObexAppParameters.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/ObexTime.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/Request.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestGetFolderListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestGetMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestGetMessagesListing.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestPushMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestSetNotificationRegistration.java packages/apps/Bluetooth/src/com/android/bluetooth/mapclient/obex/RequestSetPath.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBatch.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBtEnableActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBtEnablingActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppBtErrorActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppHandoverReceiver.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppIncomingFileConfirmActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppLauncherActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppManager.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppNotification.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexClientSession.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexServerSession.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppObexSession.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppPreference.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppProvider.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppReceiveFileInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppReceiver.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppSendFileInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppService.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppShareInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransfer.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferAdapter.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferHistory.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppTransferInfo.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppUtility.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothShare.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/Constants.java packages/apps/Bluetooth/src/com/android/bluetooth/opp/TestActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/pan/BluetoothTetheringNetworkFactory.java packages/apps/Bluetooth/src/com/android/bluetooth/pan/PanService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapActivity.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapAuthenticator.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapCallLogComposer.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapConfig.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapObexServer.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/pbap/BluetoothPbapVcardManager.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/AuthenticationService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/Authenticator.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapObexAuthenticator.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapObexTransport.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapRequestPullPhoneBook.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/BluetoothPbapVcardList.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/CallLogPullRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/ObexAppParameters.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PbapClientConnectionHandler.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PbapClientService.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PbapClientStateMachine.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PhonebookEntry.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PhonebookPullRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/pbapclient/PullRequest.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapRilReceiver.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapServer.java packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapService.java packages/apps/Bluetooth/src/com/android/bluetooth/sdp/SdpManager.java packages/apps/Bluetooth/src/com/android/bluetooth/util/DevicePolicyUtils.java packages/apps/Bluetooth/src/com/android/bluetooth/util/Interop.java packages/apps/Bluetooth/src/com/android/bluetooth/util/NumberUtils.java ' >> /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (if [ -d \"/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/src\" ]; then find /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/src -name '*.java' -and -not -name '.*' >> /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list; fi ) && (find /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/proto -name '*.java' -and -not -name '.*' >> /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (tr ' ' '\\n' < /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list | build/tools/normalize_path.py | sort -u > /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq ) && (if [ -s /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq ] ; then /home/ivan/Esperimenti/i9105p_los151/out/soong/host/linux-x86/bin/soong_javac_wrapper javac -J-Xmx2048M -Xmaxerrs 9999999 -encoding UTF-8  -bootclasspath /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar -classpath /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-libart_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-oj_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/ext_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/javax.obex_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/libprotobuf-java-micro_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/telephony-common_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/core-lambda-stubs_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/com.android.vcard_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/bluetooth.mapsapi_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/services.net_intermediates/classes.jar:/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/JAVA_LIBRARIES/libprotobuf-java-micro_intermediates/classes.jar  -extdirs \"\" -d /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes -s /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/anno -g  -source 1.8 -target 1.8  \\@/home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq || ( rm -rf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes ; exit 41 ) fi ) && (rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list ) && (rm -f /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes/java-source-list-uniq ) && (jar -cf /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes-full-debug.jar -C /home/ivan/Esperimenti/i9105p_los151/out/target/common/obj/APPS/Bluetooth_intermediates/classes . )"
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:32: error: package android.support.annotation does not exist
+import android.support.annotation.VisibleForTesting;
+                                 ^
+packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java:26: error: package android.support.v4.content does not exist
+import android.support.v4.content.FileProvider;
+                                 ^
+packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java:33: error: cannot find symbol
+public class BluetoothOppFileProvider extends FileProvider {
+                                              ^
+  symbol: class FileProvider
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:14: error: package org.android.btsap does not exist
+import org.android.btsap.SapApi;
+                        ^
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:15: error: package org.android.btsap.SapApi does not exist
+import org.android.btsap.SapApi.*;
+^
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:811: error: cannot find symbol
+    public static SapMessage newInstance(MsgHeader msg) throws IOException {
+                                         ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:815: error: cannot find symbol
+    private SapMessage(MsgHeader msg) throws IOException {
+                       ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:834: error: cannot find symbol
+    private void createUnsolicited(MsgHeader msg)
+                                   ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:881: error: cannot find symbol
+    private void createSolicited(MsgHeader msg) throws IOException,
+                                 ^
+  symbol:   class MsgHeader
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapRilReceiver.java:9: error: package org.android.btsap.SapApi does not exist
+import org.android.btsap.SapApi.MsgHeader;
+                               ^
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:369: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:397: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:603: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:617: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:635: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:685: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/btservice/RemoteDevices.java:737: error: cannot find symbol
+    @VisibleForTesting
+     ^
+  symbol:   class VisibleForTesting
+  location: class RemoteDevices
+packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java:61: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java:77: error: cannot find symbol
+                    super.attachInfo(mContext, mProviderInfo);
+                    ^
+  symbol:   variable super
+  location: class BluetoothOppFileProvider
+packages/apps/Bluetooth/src/com/android/bluetooth/opp/BluetoothOppFileProvider.java:114: error: cannot find symbol
+        return FileProvider.getUriForFile(context, authority, file);
+               ^
+  symbol:   variable FileProvider
+  location: class BluetoothOppFileProvider
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:357: error: reference to SapMessage is ambiguous
+        SapMessage newMessage = new SapMessage(requestType);
+                                ^
+  both constructor SapMessage(int) in SapMessage and constructor SapMessage(MsgHeader) in SapMessage match
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:819: error: cannot find symbol
+            case SapApi.UNSOL_RESPONSE:
+                 ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:822: error: cannot find symbol
+            case SapApi.RESPONSE:
+                 ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:842: error: cannot find symbol
+        case SapApi.RIL_SIM_SAP_STATUS:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:845: error: cannot find symbol
+            RIL_SIM_SAP_STATUS_IND indMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_STATUS_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:846: error: cannot find symbol
+                    RIL_SIM_SAP_STATUS_IND.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_STATUS_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:858: error: cannot find symbol
+        case SapApi.RIL_SIM_SAP_DISCONNECT:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:862: error: cannot find symbol
+            RIL_SIM_SAP_DISCONNECT_IND indMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_DISCONNECT_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:863: error: cannot find symbol
+                    RIL_SIM_SAP_DISCONNECT_IND.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_DISCONNECT_IND
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:905: error: cannot find symbol
+            RIL_SIM_SAP_CONNECT_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:906: error: cannot find symbol
+                    RIL_SIM_SAP_CONNECT_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:913: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:916: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_CONNECT_OK_CALL_ONGOING:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:919: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_CONNECT_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:922: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_MSG_SIZE_TOO_LARGE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:925: error: cannot find symbol
+            case RIL_SIM_SAP_CONNECT_RSP.RIL_E_SAP_MSG_SIZE_TOO_SMALL:
+                 ^
+  symbol:   variable RIL_SIM_SAP_CONNECT_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:943: error: cannot find symbol
+            RIL_SIM_SAP_APDU_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:944: error: cannot find symbol
+                    RIL_SIM_SAP_APDU_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:947: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:954: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:957: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:960: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:963: error: cannot find symbol
+            case RIL_SIM_SAP_APDU_RSP.RIL_E_SIM_NOT_READY:
+                 ^
+  symbol:   variable RIL_SIM_SAP_APDU_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:974: error: cannot find symbol
+            RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:975: error: cannot find symbol
+                        RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.parseFrom(
+                        ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:979: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:982: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:985: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:988: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:991: error: cannot find symbol
+            case RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP.RIL_E_SIM_NOT_READY:
+                 ^
+  symbol:   variable RIL_SIM_SAP_SET_TRANSFER_PROTOCOL_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1002: error: cannot find symbol
+            RIL_SIM_SAP_TRANSFER_ATR_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1003: error: cannot find symbol
+                    RIL_SIM_SAP_TRANSFER_ATR_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1009: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1012: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1015: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1018: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1021: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_ALREADY_POWERED_ON:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1024: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_ATR_RSP.RIL_E_SIM_DATA_NOT_AVAILABLE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_ATR_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1035: error: cannot find symbol
+            RIL_SIM_SAP_POWER_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1036: error: cannot find symbol
+                    RIL_SIM_SAP_POWER_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1039: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1042: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1045: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1048: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1051: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_ON:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1062: error: cannot find symbol
+            RIL_SIM_SAP_POWER_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1063: error: cannot find symbol
+                    RIL_SIM_SAP_POWER_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1066: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1069: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1072: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1075: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1078: error: cannot find symbol
+            case RIL_SIM_SAP_POWER_RSP.RIL_E_SIM_ALREADY_POWERED_ON:
+                 ^
+  symbol:   variable RIL_SIM_SAP_POWER_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1089: error: cannot find symbol
+            RIL_SIM_SAP_RESET_SIM_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1090: error: cannot find symbol
+                    RIL_SIM_SAP_RESET_SIM_RSP.parseFrom(msg.getPayload().toByteArray());
+                    ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1093: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1096: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1099: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_SIM_ABSENT:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1102: error: cannot find symbol
+            case RIL_SIM_SAP_RESET_SIM_RSP.RIL_E_SIM_ALREADY_POWERED_OFF:
+                 ^
+  symbol:   variable RIL_SIM_SAP_RESET_SIM_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1113: error: cannot find symbol
+            RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP resMsg =
+            ^
+  symbol:   class RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1114: error: cannot find symbol
+                    RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.parseFrom(
+                    ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1118: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.RIL_E_SUCCESS:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1126: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.RIL_E_GENERIC_FAILURE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1129: error: cannot find symbol
+            case RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP.RIL_E_SIM_DATA_NOT_AVAILABLE:
+                 ^
+  symbol:   variable RIL_SIM_SAP_TRANSFER_CARD_READER_STATUS_RSP
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1153: error: cannot find symbol
+        case SapApi.RIL_E_SUCCESS:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1155: error: cannot find symbol
+        case SapApi.RIL_E_CANCELLED:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1157: error: cannot find symbol
+        case SapApi.RIL_E_GENERIC_FAILURE:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1159: error: cannot find symbol
+        case SapApi.RIL_E_RADIO_NOT_AVAILABLE:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1161: error: cannot find symbol
+        case SapApi.RIL_E_INVALID_PARAMETER:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+packages/apps/Bluetooth/src/com/android/bluetooth/sap/SapMessage.java:1163: error: cannot find symbol
+        case SapApi.RIL_E_REQUEST_NOT_SUPPORTED:
+             ^
+  symbol:   variable SapApi
+  location: class SapMessage
+89 errors
