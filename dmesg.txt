@@ -1,0 +1,1430 @@
+<6>[    0.000000] {4294937296}Initializing cgroup subsys cpu
+<5>[    0.000000] {4294937296}Linux version 3.0.101+ (ghsr@build) (gcc version 4.8 (GCC) ) #2 SMP PREEMPT Fri Oct 21 13:05:16 +06 2016
+<4>[    0.000000] {4294937296}CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=10c53c7d
+<4>[    0.000000] {4294937296}CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<4>[    0.000000] {4294937296}Machine: CAPRI_SS_S2VEP
+<6>[    0.000000] {4294937296}Kona dt @0xc0000314, size of 0x677 words, rooted @ 0xc0000354
+<6>[    0.000000] {4294937296}model: Broadcom capri_ss_s2vep board
+<6>[    0.000000] {4294937296}compatible: Broadcom, 
+<6>[    0.000000] {4294937296}reg: 0x35004800, 0x10c
+<4>[    0.000000] {4294937296}data(0xc0000460): size=1072
+<6>[    0.000000] {4294937296}early_init_dt_scan_gpio: reg: 0x35003000, 0x5f
+<6>[    0.000000] {4294937296}early_init_dt_scan_gpio: data(0xc00008e0): size=760
+<6>[    0.000000] {4294937296}early_init_dt_scan_pmu: ntc_upper_boundary not found
+<6>[    0.000000] {4294937296}early_init_dt_scan_pmu: max_batt_ov not found
+<6>[    0.000000] {4294937296}videocore: base @0xcf000000, load @0xdf000000, 0x11000000 Mb
+<6>[    0.000000] {4294937296}videocore: pmu-list <no list>
+<6>[    0.000000] {4294937296}videocore: vchiq-bulk-xfer-size 15990784
+<3>[    0.000000] {4294937296}early_vc_cma_mem(0/112M@0xCF000000)
+<3>[    0.000000] {4294937296} -> initial 0, size 7000000, base cf000000
+<6>[    0.000000] {4294937296}PMEM: carveout_size:0
+<6>[    0.000000] {4294937296}cma: CMA: reserved 112 MiB at cf000000
+<6>[    0.000000] {4294937296}vc-lowmem: reserved 0xc0000000-0xc0001000, safety 0xa2000000
+<6>[    0.000000] {4294937296}cma: CMA: reserved 16 MiB at ce000000
+<4>[    0.000000] {4294937296}Memory policy: ECC disabled, Data cache writealloc
+<0>[    0.000000] {4294937296}(sec_debug_set_upload_magic) 66262564
+<0>[    0.000000] {4294937296}(sec_debug_set_upload_cause) cafebabe
+<7>[    0.000000] {4294937296}On node 0 totalpages: 212992
+<7>[    0.000000] {4294937296}free_area_init_node: node 0, pgdat c0933ac0, node_mem_map c1313000
+<7>[    0.000000] {4294937296}  Normal zone: 1664 pages used for memmap
+<7>[    0.000000] {4294937296}  Normal zone: 0 pages reserved
+<7>[    0.000000] {4294937296}  Normal zone: 211328 pages, LIFO batch:31
+<6>[    0.000000] {4294937296}PERCPU: Embedded 8 pages/cpu @c199a000 s10688 r8192 d13888 u32768
+<7>[    0.000000] {4294937296}pcpu-alloc: s10688 r8192 d13888 u32768 alloc=8*4096
+<7>[    0.000000] {4294937296}pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] {4294937296}Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 211328
+<5>[    0.000000] {4294937296}Kernel command line: console=ttyS0,115200n8 mem=128M androidboot.hardware=capri console=ttyS0,115200n8 mem=832M@0xA2000000 androidboot.console=ttyS0 vc-cma-mem=0/112M@0xCF000000 bcmlog.mtt_log_buffer=8388608 bootmode=2 sec_debug.reset_reason=0x1A2B3C00 sec_debug.level=0 androidboot.debug_level=0x4f4c loglevel=0 sec_log=0x100000@0xde900000 lpcharge=0 cordon=b031ff95abf93849a5feb50843605d5e androidboot.emmc_checksum=3 brd_ver=5 androidboot.serialno=4100827294269000
+<4>[    0.000000] {4294937296}Allocating mtt log buffer size : 8388608 Bytes
+<4>[    0.000000] {4294937296}[allocated mtt log buffer] base : 0xc19ab000, Size : 8388608 Bytes
+<6>[    0.000000] {4294937296}sec_getlog_supply_kloginfo: 0xc093fec8
+<6>[    0.000000] {4294937296}PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.000000] {4294937296}Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[    0.000000] {4294937296}Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] {4294937296}allocated 3407872 bytes of page_cgroup
+<6>[    0.000000] {4294937296}please try 'cgroup_disable=memory' option if you don't want memory cgroups
+<6>[    0.000000] {4294937296}Memory: 832MB = 832MB total
+<5>[    0.000000] {4294937296}Memory: 686552k/783552k available, 199488k reserved, 0K highmem
+<5>[    0.000000] {4294937296}Virtual kernel memory layout:
+<5>[    0.000000] {4294937296}    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000] {4294937296}    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000] {4294937296}    vmalloc : 0xf4800000 - 0xfd800000   ( 144 MB)
+<5>[    0.000000] {4294937296}    lowmem  : 0xc0000000 - 0xf4000000   ( 832 MB)
+<5>[    0.000000] {4294937296}    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+<5>[    0.000000] {4294937296}      .init : 0xc0008000 - 0xc0043000   ( 236 kB)
+<5>[    0.000000] {4294937296}      .text : 0xc0043000 - 0xc08c58c8   (8715 kB)
+<5>[    0.000000] {4294937296}      .data : 0xc08c6000 - 0xc0939670   ( 462 kB)
+<5>[    0.000000] {4294937296}       .bss : 0xc0939694 - 0xc0b99470   (2432 kB)
+<6>[    0.000000] {4294937296}SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+<6>[    0.000000] {4294937296}Preemptible hierarchical RCU implementation.
+<6>[    0.000000] {4294937296}	RCU debugfs-based tracing is enabled.
+<6>[    0.000000] {4294937296}NR_IRQS:492
+<3>[    0.000000] {4294937296}clk_get failed, so clock manager is not up use local calls
+<6>[    0.000000] {4294937296}timers_init: === SYSTEM TIMER NAME: aon-timer CHANNEL NUMBER 0RATE 32768 
+<6>[    0.000000] {4294937296}timers_init: === AON TIMER NAME: aon-timer CHANNEL NUMBER 0RATE 32768 
+<6>[    0.000000] {4294937296}Console: colour dummy device 80x30
+<6>[    5.093475] {4294937296}Calibrating delay loop... 2387.14 BogoMIPS (lpj=11935744)
+<6>[    5.153961] {4294937302}pid_max: default: 32768 minimum: 301
+<6>[    5.154113] {4294937302}Security Framework initialized
+<6>[    5.154113] {4294937302}SELinux:  Initializing.
+<7>[    5.154174] {4294937302}SELinux:  Starting in permissive mode
+<6>[    5.154235] {4294937302}Mount-cache hash table entries: 512
+<6>[    5.154907] {4294937302}Initializing cgroup subsys cpuacct
+<6>[    5.154937] {4294937302}Initializing cgroup subsys memory
+<6>[    5.154998] {4294937302}Initializing cgroup subsys devices
+<6>[    5.154998] {4294937302}Initializing cgroup subsys freezer
+<6>[    5.154998] {4294937302}Initializing cgroup subsys blkio
+<6>[    5.155059] {4294937302}CPU: Testing write buffer coherency: ok
+<6>[    5.155364] {4294937302}hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+<6>[    5.155395] {4294937302}Disabling kproc_clk_mgr_reg_ARM_SYS_IDLE_DLY 0x00000000
+<6>[    5.155487] {4294937302}L310 cache controller enabled
+<6>[    5.155487] {4294937302}l2x0: 16 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x7a450000, Cache size: 524288 B
+<6>[    5.158264] {4294937302}Configured pin-mux! 97 gpio pins!
+<6>[    5.158264] {4294937302}pinmux_gpio_mask: 0xb447fff, 0xfff1f800, 0xf800061f, 0xfe1802ff, 0x3ffff, 0x3c4fc000
+<3>[    5.158477] {4294937302}kona_gpio_init: Missing initial cfg for GPIO bank2 (mask=0x58000000)
+<3>[    5.158538] {4294937302}kona_gpio_init: Mismatch GPIO183. The board may not boot!
+<6>[    5.158538] {4294937302}kona_gpio_init: kona gpio initialised.
+<3>[    5.158660] {4294937302}(NULL device *): no ack detected
+<3>[    5.158691] {4294937302}(NULL device *): Adapter is switched to HS mode
+<6>[    5.158721] {4294937302}capri_pi_mgr_init: PI:arm_core state[0] = 1 5
+<6>[    5.158721] {4294937302}capri_pi_mgr_init: PI:hub state[0] = 1 1
+<6>[    5.158721] {4294937302}capri_pi_mgr_init: PI:aon state[0] = 1 1
+<6>[    5.158752] {4294937302}capri_pi_mgr_init: PI:sub_sys state[0] = 1 1
+<6>[    5.158752] {4294937302}capri_pi_mgr_init: PI:modem state[0] = c07a41b0 c08e4b28
+<6>[    5.158752] {4294937302}capri_pi_mgr_init: PI:mm state[0] = c07a419c 0
+<6>[    5.158752] {4294937302}capri_pi_mgr_init: PI:mm_sub state[0] = c07bbf54 0
+<6>[    5.158752] {4294937302}capri_pi_mgr_init: PI:mm_sub2 state[0] = c07a4194 0
+<6>[    5.158966] {4294937302} pi_def_init: count = 0
+<6>[    5.158966] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 0
+<6>[    5.158966] {4294937302} pi_def_init: count = 0
+<6>[    5.158966] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 1
+<6>[    5.158966] {4294937302} pi_def_init: count = 0
+<6>[    5.158996] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 2
+<6>[    5.158996] {4294937302} pi_def_init: count = 0
+<6>[    5.158996] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 3
+<6>[    5.158996] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 4
+<6>[    5.159027] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 5
+<6>[    5.159027] {4294937302}pwr_mgr_pi_set_wakeup_override: SET wakeup override for pi: 6
+<4>[    5.206115] {4294937307}CPU1: Booted secondary processor
+<6>[    5.265960] {4294937313}Brought up 2 CPUs
+<6>[    5.265960] {4294937313}SMP: Total of 2 processors activated (4787.40 BogoMIPS).
+<2>[    5.265991] {4294937313}CPU1: Unknown IPI message 0x1
+<6>[    5.266235] {4294937313}devtmpfs: initialized
+<6>[    5.274505] {4294937313}print_constraints: dummy: 
+<4>[    5.279510] {4294937314}reserve_skbs_list 
+<6>[    5.279632] {4294937314}NET: Registered protocol family 16
+<6>[    5.288330] {4294937315}DMA: preallocated 512 KiB pool for atomic coherent allocations
+<6>[    5.288665] {4294937315}sdma_init: initializing SDMA
+<6>[    5.297058] {4294937316}USBH Power Down
+<6>[    5.297729] {4294937316}fsa9485
+<6>[    5.297729] {4294937316}[TSP] naples_tsp_init() is called
+<3>[    5.297821] {4294937316}Calling WLAN_INIT!
+<3>[    5.297851] {4294937316} capri_wlan_init Calling GPIO INIT!
+<3>[    5.297851] {4294937316} capri_wlan_init Calling GPIO INIT DONE !
+<3>[    5.297882] {4294937316}capri_init_wifi_mem: WIFI MEM Allocated
+<3>[    5.297882] {4294937316} capri_wlan_init Calling MEM INIT DONE !
+<3>[    5.297912] {4294937316}DONE WLAN_INIT!
+<6>[    5.298248] {4294937316}fsa9485 mUSB_i2c_devices
+<4>[    5.298461] {4294937316}drv2603_gpio_init start 
+<4>[    5.298492] {4294937316}drv2603_gpio_init end 
+<7>[    5.298553] {4294937316}ipc:Comms_Start(): enter
+<7>[    5.301574] {4294937316}ipc:Comms_Start(): cleared sh mem
+<7>[    5.301574] {4294937316}ipc:Comms_Start(): main addr 0x20438
+<7>[    5.301574] {4294937316}ipc:Comms_Start(): modem (R4 COMMS) started ...
+<4>[    5.301574] {4294937316}[Comms_Start]cp start delay, 500msec. 
+<6>[    5.799865] {4294937367}Audio Mixer Driver: 1.0
+<6>[    5.799987] {4294937367}Broadcom BSC (I2C) Driver
+<6>[    5.800109] {4294937367}bsc-i2c bsc-i2c.0: bus 0 at speed 5
+<6>[    5.800292] {4294937367}Broadcom BSC (I2C) Driver
+<6>[    5.800415] {4294937367}bsc-i2c bsc-i2c.1: bus 1 at speed 5
+<6>[    5.800537] {4294937367}Broadcom BSC (I2C) Driver
+<6>[    5.800598] {4294937367}Broadcom BSC (I2C) Driver
+<6>[    5.800720] {4294937367}bsc-i2c bsc-i2c.3: bus 3 at speed 5
+<5>[    5.800872] {4294937367}knllog_init
+<6>[    5.812408] {4294937368}bio: create slab <bio-0> at 0
+<4>[    5.812652] {4294937368}[BCMLOG_ModuleInit]g_module.buffer=0xc19ab000, g_module.buffer_size=8388608
+<6>[    5.812683] {4294937368}bcmlog:vm area:start:0xf4824000, size:4000
+<6>[    5.812683] {4294937368}brcm_netconsole_register_callbacks
+<6>[    5.812805] {4294937368}[I] vc-sysman-remote: Videocore remote sysman driver
+<6>[    5.812805] {4294937368}
+<6>[    5.812866] {4294937368}[I] vc_sysman_remote_probe: start
+<6>[    5.812866] {4294937368}[I] vc_sysman_remote_probe: end, ret=0
+<6>[    5.812927] {4294937368}[I] vc_sysman_remote_init : Registered Videocore remote sysman driver
+<6>[    5.812957] {4294937368}[I] vc-watchdog: Videocore watchdog driver
+<6>[    5.812957] {4294937368}
+<6>[    5.812988] {4294937368}[I] vc_watchdog_probe: start
+<6>[    5.813018] {4294937368}[I] vc_watchdog_probe: end, ret=0
+<6>[    5.813049] {4294937368}[I] vc_watchdog_init : Registered Videocore watchdog driver
+<6>[    5.813140] {4294937368}bcmpmu_i2c_probe:PWRMGR I2C Sequencer
+<6>[    5.813262] {4294937368}bcmpmu_probe: called.
+<6>[    5.813385] {4294937368}bcmpmu_probe: Chip Version = 0x56.
+<6>[    5.813476] {4294937368}bcmpmu_probe: PMUrev = 0x22.
+<6>[    5.816894] {4294937368}bcmpmu_probe: pmu revision B0, revision reg value = 0x22.
+<6>[    5.816925] {4294937368}bcmpmu_register_init: register init
+<6>[    5.866790] {4294937373}felllow driver:bcmpmu_irq
+<6>[    5.866821] {4294937373}felllow driver:bcmpmu_hwmon
+<6>[    5.866821] {4294937373}felllow driver:bcmpmu-regulator
+<6>[    5.866851] {4294937373}felllow driver:bcmpmu_rtc
+<6>[    5.866851] {4294937373}felllow driver:bcmpmu_accy
+<6>[    5.866882] {4294937373}felllow driver:bcmpmu_ponkey
+<6>[    5.866882] {4294937373}felllow driver:bcmpmu-wdog
+<6>[    5.866912] {4294937373}felllow driver:bcmpmu_thermal
+<4>[    5.867065] {4294937373}bcmpmu_regulator_probe: called
+<6>[    5.867065] {4294937373}bcmpmu_regulator_probe: called
+<6>[    5.867126] {4294937373}bcmpmureg_enable(rfldo)
+<6>[    5.867309] {4294937373}bcmpmureg_enable:keep init value(rfldo)
+<6>[    5.867950] {4294937374}print_constraints: rfldo: 1200 <--> 3300 mV at 2700 mV 
+<6>[    5.868072] {4294937374}bcmpmureg_enable(camldo1)
+<6>[    5.868164] {4294937374}bcmpmureg_enable:keep init value(camldo1)
+<6>[    5.869018] {4294937374}print_constraints: camldo1: 1200 <--> 3300 mV at 3300 mV 
+<6>[    5.869506] {4294937374}print_constraints: camldo2: 1200 <--> 3300 mV at 2800 mV 
+<6>[    5.869934] {4294937374}print_constraints: sdldo: 1200 <--> 3300 mV at 3000 mV 
+<6>[    5.870391] {4294937374}print_constraints: sdxldo: 1200 <--> 3300 mV at 1800 mV 
+<6>[    5.870880] {4294937374}print_constraints: vibldo: 1200 <--> 3300 mV at 1800 mV 
+<6>[    5.871032] {4294937374}print_constraints: audldo: 1200 <--> 3300 mV at 2900 mV 
+<6>[    5.871490] {4294937374}print_constraints: micldo: 1200 <--> 3300 mV at 1200 mV 
+<6>[    5.871978] {4294937374}print_constraints: mmcldo1: 1200 <--> 3300 mV at 2800 mV 
+<6>[    5.872070] {4294937374}bcmpmureg_enable(mmcldo2)
+<6>[    5.872985] {4294937374}print_constraints: mmcldo2: 1200 <--> 3300 mV at 2800 mV 
+<6>[    5.873443] {4294937374}print_constraints: simldo: 1200 <--> 3300 mV at 1800 mV 
+<6>[    5.873901] {4294937374}print_constraints: usbldo: 1200 <--> 3300 mV at 3300 mV 
+<6>[    5.874389] {4294937374}print_constraints: sim2ldo: 1200 <--> 3300 mV at 3000 mV 
+<6>[    5.874603] {4294937374}print_constraints: hdmildo: 
+<6>[    5.874969] {4294937374}bcmpmureg_enable(csr)
+<6>[    5.875244] {4294937374}print_constraints: csr: 700 <--> 1360 mV at 1360 mV 
+<6>[    5.875457] {4294937374}bcmpmureg_enable(vsr)
+<6>[    5.875732] {4294937374}print_constraints: vsr: 700 <--> 1800 mV at 1200 mV 
+<6>[    5.875946] {4294937374}bcmpmureg_enable(mmsr)
+<6>[    5.876220] {4294937374}print_constraints: mmsr: 700 <--> 1800 mV at 1100 mV 
+<6>[    5.876678] {4294937374}print_constraints: gpldo1: 1200 <--> 3300 mV at 2800 mV 
+<6>[    5.877471] {4294937375}print_constraints: gpldo2: 1200 <--> 3300 mV at 1800 mV 
+<6>[    5.878021] {4294937375}print_constraints: gpldo3: 1200 <--> 3300 mV at 1800 mV 
+<6>[    5.878509] {4294937375}print_constraints: gpldo4: 1200 <--> 3300 mV at 1800 mV 
+<6>[    5.878997] {4294937375}print_constraints: gpldo5: 1200 <--> 3300 mV at 2800 mV 
+<6>[    5.879455] {4294937375}print_constraints: gpldo6: 1200 <--> 3300 mV at 3300 mV 
+<6>[    5.879760] {4294937375}bcmpmu_init_platform_hw: called.
+<6>[    5.880065] {4294937375}bcmpmu_irq_probe, called.
+<6>[    5.881469] {4294937375}bcmpmu_accy_probe, called
+<5>[    5.886169] {4294937375}SCSI subsystem initialized
+<6>[    5.886291] {4294937375}usbcore: registered new interface driver usbfs
+<6>[    5.886352] {4294937375}usbcore: registered new interface driver hub
+<6>[    5.886444] {4294937375}usbcore: registered new device driver usb
+<6>[    5.886444] {4294937375}Broadcom USB OTG Transceiver Driver
+<6>[    5.886505] {4294937375}bcmpmu_otg_xceiv bcmpmu_otg_xceiv: Probing started...
+<4>[    5.889373] {4294937376}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    5.889404] {4294937376}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    5.889404] {4294937376}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<6>[    5.889434] {4294937376}bcmpmu_otg_xceiv bcmpmu_otg_xceiv: Probing successful
+<6>[    5.889648] {4294937376}i2c-gpio i2c-gpio.4: using pins 0 (SDA) and 1 (SCL)
+<6>[    5.889892] {4294937376}i2c-gpio i2c-gpio.15: using pins 66 (SDA) and 65 (SCL)
+<6>[    5.889984] {4294937376}i2c-gpio i2c-gpio.5: using pins 116 (SDA) and 115 (SCL)
+<6>[    5.890106] {4294937376}i2c-gpio i2c-gpio.7: using pins 68 (SDA) and 67 (SCL)
+<6>[    5.890197] {4294937376}i2c-gpio i2c-gpio.8: using pins 131 (SDA) and 132 (SCL)
+<6>[    5.890319] {4294937376}bcmpmu_hwmon_probe: called
+<6>[    5.892486] {4294937376}sii9234 sii9234_mhl_tx_i2c_probe START 
+<6>[    5.892578] {4294937376}create mhl sysfile
+<6>[    5.892608] {4294937376}create mhl sysfile
+<6>[    5.892913] {4294937376}input: sii9234_rcp as /devices/virtual/input/input0
+<6>[    5.893096] {4294937376}Advanced Linux Sound Architecture Driver Version 1.0.24.
+<6>[    5.893402] {4294937376}Bluetooth: Core ver 2.16
+<6>[    5.893463] {4294937376}NET: Registered protocol family 31
+<6>[    5.893493] {4294937376}Bluetooth: HCI device and connection manager initialized
+<6>[    5.893493] {4294937376}Bluetooth: HCI socket layer initialized
+<6>[    5.893524] {4294937376}Bluetooth: L2CAP socket layer initialized
+<6>[    5.893554] {4294937376}Bluetooth: SCO socket layer initialized
+<6>[    5.893707] {4294937376}cfg80211: Calling CRDA to update world regulatory domain
+<6>[    5.893890] {4294937376}kona_avs_drv_probe: AVS Start
+<6>[    5.893920] {4294937376}kona_avs_get_mon_val:
+<6>[    5.893951] {4294937376}    AVS_READ_FROM_MEM => mem adr = 34053fa8
+<6>[    5.893951] {4294937376}    AVS_READ_FROM_MEM => virtual addr = f4828fa8
+<6>[    5.893981] {4294937376}    opt:val0 = 82d48900; val1 = a7
+<6>[    5.894012] {4294937376}    monitor_val0 = 137
+<6>[    5.894012] {4294937376}    monitor_val1 = 212
+<6>[    5.894012] {4294937376}    monitor_val2 = 130
+<6>[    5.894012] {4294937376}    monitor_val3 = 167
+<6>[    5.894042] {4294937376}kona_avs_get_ate_val:
+<6>[    5.894042] {4294937376}    AVS_READ_FROM_MEM => mem adr = 34053fa0
+<6>[    5.894073] {4294937376}    AVS_READ_FROM_MEM => virtual addr = f482afa0
+<6>[    5.894073] {4294937376}    ATE val0 = 1e2c937; val1 = 0
+<6>[    5.894104] {4294937376}    AVS Year & Month of Manufacturing:2013 7
+<6>[    5.894134] {4294937376}    ATE_CSR_BIN[3 : 0] = 0x9
+<6>[    5.894134] {4294937376}    ATE_MSR_BIN[3 : 0] = 0x0
+<6>[    5.894134] {4294937376}    ATE_VSR_BIN[3 : 0] = 0x0
+<6>[    5.894134] {4294937376}    YEAR[3 : 0]        = 0x3
+<6>[    5.894134] {4294937376}    MONTH[3 : 0]       = 0x7
+<6>[    5.894134] {4294937376}    ATE_IRDROP_BIN[9:0] = 0x1e2
+<6>[    5.894134] {4294937376}    CRC[3 : 0]         = 0xc
+<6>[    5.894165] {4294937376}avs_find_silicon_type:
+<6>[    5.894165] {4294937376}    avs_info.monitor_val0 = 137
+<6>[    5.894195] {4294937376}    avs_info.monitor_val1 = 212
+<6>[    5.894195] {4294937376}    avs_info.monitor_val2 = 130
+<6>[    5.894226] {4294937376}    avs_info.monitor_val3 = 167
+<6>[    5.894226] {4294937376}    avs_info.avs_irdrop = 482
+<6>[    5.894256] {4294937376}    avs_info.ate_csr_bin = 9
+<6>[    5.894256] {4294937376}    avs_info.ate_msr_bin = 0
+<6>[    5.894287] {4294937376}    avs_info.ate_vsr_bin = 0
+<6>[    5.894287] {4294937376}    avs_info.freq = 0
+<6>[    5.894317] {4294937376}    avs_info.year = 3
+<6>[    5.894317] {4294937376}    avs_info.month = 7
+<6>[    5.894348] {4294937376}kona_avs_get_csr_type: avs_inf_ptr->avs_irdrop = 482
+<6>[    5.894348] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894378] {4294937376}    bin = 1
+<6>[    5.894378] {4294937376}kona_avs_get_csr_type: irdrop_bin = 1
+<6>[    5.894409] {4294937376}kona_avs_get_msr_type:
+<6>[    5.894409] {4294937376}    avs_inf_ptr->monitor_val0 = 137
+<6>[    5.894439] {4294937376}    avs_inf_ptr->monitor_val1 = 212
+<6>[    5.894439] {4294937376}    avs_inf_ptr->monitor_val2 = 130
+<6>[    5.894470] {4294937376}    avs_inf_ptr->monitor_val3 = 167
+<6>[    5.894470] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894500] {4294937376}    bin = 2
+<6>[    5.894500] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894531] {4294937376}    bin = 2
+<6>[    5.894531] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894561] {4294937376}    bin = 2
+<6>[    5.894561] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894592] {4294937376}    bin = 1
+<6>[    5.894592] {4294937376}kona_avs_get_msr_type:avs_msr_type = 1
+<6>[    5.894622] {4294937376}kona_avs_get_vsr_type:
+<6>[    5.894622] {4294937376}    avs_inf_ptr->monitor_val0 = 137
+<6>[    5.894653] {4294937376}    avs_inf_ptr->monitor_val1 = 212
+<6>[    5.894653] {4294937376}    avs_inf_ptr->monitor_val2 = 130
+<6>[    5.894683] {4294937376}    avs_inf_ptr->monitor_val3 = 167
+<6>[    5.894683] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894714] {4294937376}    bin = 2
+<6>[    5.894714] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894744] {4294937376}    bin = 2
+<6>[    5.894744] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894775] {4294937376}    bin = 2
+<6>[    5.894775] {4294937376}kona_avs_get_avs_type:
+<6>[    5.894775] {4294937376}    bin = 1
+<6>[    5.894805] {4294937376}kona_avs_get_vsr_type: avs_vsr_type = 1
+<6>[    5.894836] {4294937376}kona_avs_ate_get_type:
+<6>[    5.894836] {4294937376}   avs_inf_ptr->ate_csr_bin = 9
+<6>[    5.894836] {4294937376}   avs_inf_ptr->ate_msr_bin = 0
+<6>[    5.894836] {4294937376}   avs_inf_ptr->ate_vsr_bin = 0
+<6>[    5.894836] {4294937376}   avs_inf_ptr->ate_crc = 0xc
+<6>[    5.894866] {4294937376}pack [IRDROP:ATE_CSR_BIN:YEAR:MONTH] = 0x1e2937
+<6>[    5.894866] {4294937376}pack [VM3:2:1:0] = 0xa782d489
+<6>[    5.894897] {4294937376}packed [ATE:VM] string for CRC :
+<6>[    5.894897] {4294937376}011110001010010011011110100111100000101101010010001001
+<6>[    5.894897] {4294937376}pack [ATE_VSR_BIN:ATE_MSR_BIN] = 0x0
+<6>[    5.894927] {4294937376}packed [ATE:VM] string for CRC :
+<6>[    5.894927] {4294937376}01111000101001001101111010011110000010110101001000100100000000
+<6>[    5.894958] {4294937376}cal_crc:
+<6>[    5.894989] {4294937376}Calcualted ATE CRC value = 0xc
+<6>[    5.895019] {4294937376}kona_avs_ate_get_type:
+<6>[    5.895019] {4294937376}   ate silicon type csr = 1
+<6>[    5.895019] {4294937376}   ate silicon type msr = 0
+<6>[    5.895019] {4294937376}   ate silicon type vsr = 0
+<6>[    5.895019] {4294937376}   freq = 1
+<6>[    5.895019] {4294937376}avs_silicon_type_notify:
+<6>[    5.895050] {4294937376}    silicon_type_csr = 1
+<6>[    5.895050] {4294937376}    silicon_type_msr = 0
+<6>[    5.895080] {4294937376}    silicon_type_vsr = 0
+<6>[    5.895080] {4294937376}    OTPed freq_id    = 1
+<6>[    5.895141] {4294937376}pm_init_pmu_sr_vlt_map_table:
+<6>[    5.895141] {4294937376}   silicon type csr = 1
+<6>[    5.895141] {4294937376}   silicon type msr = 0
+<6>[    5.895141] {4294937376}   silicon type vsr = 0
+<6>[    5.895141] {4294937376}   A9 clock rate = 1200000002
+<6>[    5.895141] {4294937376}   OTPed ATE freq_id = 1
+<6>[    5.895172] {4294937376}   A9 PLL frequency Index = 1
+<6>[    5.895172] {4294937376}bcmpmu_get_sr_vlt_table:
+<6>[    5.895202] {4294937376}    Final AVS Silicon Types:
+<6>[    5.895202] {4294937376}    sr = 0
+<6>[    5.895202] {4294937376}    freq_inx = 1
+<6>[    5.895233] {4294937376}    silicon_type_csr = 1
+<6>[    5.895233] {4294937376}    silicon_type_msr = 0
+<6>[    5.895263] {4294937376}    silicon_type_vsr = 0
+<6>[    5.895263] {4294937376}pm_init_pmu_sr_vlt_map_table:
+<6>[    5.895294] {4294937376}    Final AVS Voltage Vector
+<6>[    5.895294] {4294937376}    Idx =  0, voltage = 128  (0x80) (0xC0)
+<6>[    5.895324] {4294937376}    Idx =  1, voltage =   4  (0x04) (0x44)
+<6>[    5.895324] {4294937376}    Idx =  2, voltage =  36  (0x24) (0x64)
+<6>[    5.895355] {4294937376}    Idx =  3, voltage =  15  (0x0F) (0x4F)
+<6>[    5.895355] {4294937376}    Idx =  4, voltage =  15  (0x0F) (0x4F)
+<6>[    5.895385] {4294937376}    Idx =  5, voltage =  16  (0x10) (0x50)
+<6>[    5.895416] {4294937376}    Idx =  6, voltage =  18  (0x12) (0x52)
+<6>[    5.895416] {4294937376}    Idx =  7, voltage =  15  (0x0F) (0x4F)
+<6>[    5.895446] {4294937376}    Idx =  8, voltage =  26  (0x1A) (0x5A)
+<6>[    5.895446] {4294937376}    Idx =  9, voltage =  28  (0x1C) (0x5C)
+<6>[    5.895477] {4294937376}    Idx = 10, voltage =  26  (0x1A) (0x5A)
+<6>[    5.895477] {4294937376}    Idx = 11, voltage =  36  (0x24) (0x64)
+<6>[    5.895507] {4294937376}    Idx = 12, voltage =  38  (0x26) (0x66)
+<6>[    5.895507] {4294937376}    Idx = 13, voltage =  40  (0x28) (0x68)
+<6>[    5.895538] {4294937376}    Idx = 14, voltage =  36  (0x24) (0x64)
+<6>[    5.895568] {4294937376}    Idx = 15, voltage =  49  (0x31) (0x71)
+<6>[    5.895568] {4294937376}avs_find_silicon_type: AVS Complete
+<6>[    5.895660] {4294937376}bcmpmu_chrgr_probe: called.
+<6>[    5.929107] {4294937380}bcmpmu_em_probe: called.
+<6>[    5.929321] {4294937380}main battery present
+<6>[    5.929351] {4294937380}bcmpmu_em_probe, Battery Model = EB-F1A2GBU-BD1C702AS,1650mAH
+<6>[    5.929565] {4294937380}Switching to clocksource gpt_source_2
+<6>[    5.935241] {4294937381}Switched to NOHz mode on CPU #0
+<6>[    5.935607] {4294937381}Switched to NOHz mode on CPU #1
+<6>[    5.946655] {4294937381}NET: Registered protocol family 2
+<6>[    5.946746] {4294937381}IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    5.947082] {4294937381}TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[    5.948364] {4294937381}TCP bind hash table entries: 65536 (order: 7, 786432 bytes)
+<6>[    5.949340] {4294937382}get_fg_rate, Init CIC=0x2
+<6>[    5.949737] {4294937382}TCP: Hash tables configured (established 131072 bind 65536)
+<6>[    5.949737] {4294937382}TCP reno registered
+<6>[    5.949768] {4294937382}UDP hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    5.949798] {4294937382}UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+<6>[    5.950073] {4294937382}NET: Registered protocol family 1
+<6>[    5.950225] {4294937382}Unpacking initramfs...
+<6>[    5.982360] {4294937385}em_algorithm, first fg delta =0, cap init =93
+<6>[    5.982360] {4294937385}em_algorithm, Init volt=4143, temp=281
+<6>[    6.159484] {4294937403}em_algorithm, Init capacity=94, count=3
+<6>[    6.479583] {4294937435}em_algorithm, Init capacity=94, count=2
+<6>[    6.799713] {4294937467}em_algorithm, Init capacity=94, count=1
+<6>[    7.119812] {4294937499}em_algorithm, Init capacity=94, count=0
+<6>[    7.119812] {4294937499}em_algorithm, Avg Init capacity=94
+<6>[    7.119934] {4294937499}notify_spa event=24, data=93, pchrgr_on=0x0
+<6>[    7.119995] {4294937499}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[    7.120483] {4294937499}notify_spa event=24, data=93, pchrgr_on=0x0
+<6>[    7.120513] {4294937499}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[    7.227142] {4294937509}update_batt_capacity, fg data invalid
+<6>[    7.227142] {4294937509}change_fg_full_capacity, 0
+<6>[    7.227142] {4294937509}notify_spa event=24, data=93, pchrgr_on=0x0
+<6>[    7.227172] {4294937509}EM: capacity=93, volt=4129, curr=0, temp=281, die=0
+<6>[    7.227172] {4294937509}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[    7.300323] {4294937517}Freeing initrd memory: 3144K
+<6>[    7.300384] {4294937517}PMU: registered new PMU device of type 0
+<6>[    7.300476] {4294937517}capri cpufreq-memc initialized
+<6>[    7.300506] {4294937517}capri_profiler_init
+<6>[    7.300720] {4294937517}capri_cpufreq_init a9_pll_chnl0 freq = 800000Khz a9_pll_chnl1 freq = 1200000Khz
+<6>[    7.300750] {4294937517}kona_cpufreq_init:policy->cur = 1200000
+<6>[    7.300903] {4294937517}Broadcom USB HSOTGCTRL Driver
+<6>[    7.300933] {4294937517}hsotgctrl_clk=on, clk_usage=0
+<6>[    7.313354] {4294937518}Broadcom USB HSOTGCTRL USB Phy MDIO Driver
+<6>[    7.313568] {4294937518}profiler_probe success
+<6>[    7.314239] {4294937518}audit: initializing netlink socket (disabled)
+<5>[    7.314270] {4294937518}type=2000 audit(86402.211:1): initialized
+<6>[    7.314910] {4294937518}ashmem: initialized
+<6>[    7.320739] {4294937519}Registering sdcardfs 0.1
+<6>[    7.320953] {4294937519}fuse init (API version 7.16)
+<7>[    7.321472] {4294937519}SELinux:  Registering netfilter hooks
+<6>[    7.322601] {4294937519}io scheduler noop registered
+<6>[    7.322631] {4294937519}io scheduler deadline registered
+<6>[    7.322662] {4294937519}io scheduler row registered
+<6>[    7.322662] {4294937519}io scheduler sio registered
+<6>[    7.322692] {4294937519}io scheduler sioplus registered
+<6>[    7.322692] {4294937519}io scheduler zen registered
+<6>[    7.322784] {4294937519}io scheduler cfq registered (default)
+<6>[    7.322814] {4294937519}Broadcom Pulse Width Modulator Driver: 1.00
+<6>[    7.323211] {4294937519}PWM: driver initialized properlyld9040_probe lcd->lcd_pd->lcd_enabled=1
+<6>[    7.323425] {4294937519}ld9040_power_on: enable[1]
+<6>[    7.323577] {4294937519}lcd panel: ld9040 panel driver has been probed.
+<4>[    7.323730] {4294937519}ld9040_read_id,addr=0xda, id=0xa2
+<4>[    7.323883] {4294937519}ld9040_read_id,addr=0xdb, id=0x12
+<4>[    7.324035] {4294937519}ld9040_read_id,addr=0xdc, id=0xe1
+<4>[    7.324066] {4294937519}lcd->id[0]=0xa2, lcd->id[1]=0x12, lcd->id[2]=0xe1
+<3>[    7.324951] {4294937519}ERROR Wrong input value  LOOKUP INDEX : 301
+<3>[    7.325012] {4294937519}ERROR Wrong input value  LOOKUP INDEX : 301
+<6>[    7.325256] {4294937519}Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+<6>[    7.325897] {4294937519}serial8250.0: ttyS0 at MMIO 0x3e000000 (irq = 99) is a Kona
+<6>[    7.326110] {4294937519}console [ttyS0] enabled
+<6>[    7.326934] {4294937519}serial8250.0: ttyS1 at MMIO 0x3e001000 (irq = 98) is a Kona
+<6>[    7.327239] {4294937519}serial8250.0: ttyS2 at MMIO 0x3e002000 (irq = 97) is a Kona
+<6>[    7.327484] {4294937519}serial8250.0: ttyS3 at MMIO 0x3e003000 (irq = 96) is a Kona
+<6>[    7.327728] {4294937519}Broadcom KONA RNG Driver
+<6>[    7.329437] {4294937519}RNG: Driver initialized
+<7>[    7.329498] {4294937519}enter rpcipc_ModuleInit()
+<7>[    7.329711] {4294937519}exit rpcipc_ModuleInit()
+<7>[    7.329956] {4294937520}SYSRPC: sysrpc_init()
+<7>[    7.329986] {4294937520}SYSRPC: create_sysrpc_obj()
+<6>[    7.330078] {4294937520}bcmpmu_rpc_probe, called
+<4>[    7.330139] {4294937520}bcm_fuse_net_init_module:: bcm_fuse_net_init_module: <<
+<4>[    7.330169] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[0] = 0xc09f5ae8, dev_ptr 0xeb904000, napi weight=64
+<4>[    7.330169] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.330444] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[1] = 0xc09f5eb0, dev_ptr 0xeb904800, napi weight=64
+<4>[    7.330444] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.330688] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[2] = 0xc09f6278, dev_ptr 0xeb905000, napi weight=64
+<4>[    7.330718] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.330932] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[3] = 0xc09f6640, dev_ptr 0xeb905800, napi weight=64
+<4>[    7.330932] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.331146] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[4] = 0xc09f6a08, dev_ptr 0xeb906000, napi weight=64
+<4>[    7.331176] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.331390] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[5] = 0xc09f6dd0, dev_ptr 0xeb906800, napi weight=64
+<4>[    7.331390] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.331604] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[6] = 0xc09f7198, dev_ptr 0xeb907000, napi weight=64
+<4>[    7.331634] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.331848] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[7] = 0xc09f7560, dev_ptr 0xeb907800, napi weight=64
+<4>[    7.331848] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.332092] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[8] = 0xc09f7928, dev_ptr 0xeb0d8000, napi weight=64
+<4>[    7.332092] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.332336] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: g_net_dev_tbl[9] = 0xc09f7cf0, dev_ptr 0xeb0d8800, napi weight=64
+<4>[    7.332336] {4294937520}bcm_fuse_net_attach:: bcm_fuse_net_attach: entry_stat 0x0
+<4>[    7.332580] {4294937520}bcm_fuse_net_init_module:: bcm_fuse_net_init_module: bcm_fuse_net_config_proc_entry created
+<6>[    7.332580] {4294937520}enter bcm_sec_ModuleInit()
+<6>[    7.332733] {4294937520}exit bcm_sec_ModuleInit()
+<3>[    7.332855] {4294937520}bcm_fuse_vsp_init_module:: vsp: bcm_vsp driver(major 208) installed
+<6>[    7.332885] {4294937520}Broadcom GPIO Driver: 1.00
+<4>[    7.333190] {4294937520}hdmi_platfm_probe 137hdmi_platfm_probe request_irq 437
+<7>[    7.333374] {4294937520}check_hdmi_det_gpio c09fa8ac
+<7>[    7.333404] {4294937520}check_hdmi_det_gpio c09fa8ac state 0 gpio val 0
+<6>[    7.333770] {4294937520}vc-mem: Videocore memory driver
+<6>[    7.333801] {4294937520}vc-mem: p: 0xc0000000, b: 0xcf000000, l: 0xdf000000, s: 0x11000000
+<6>[    7.334075] {4294937520}vc-lowmem: filled 0xc0000000-0xc0001000
+<6>[    7.334106] {4294937520}vc-mem: current size check = 0x11000000 (272 MiB)
+<6>[    7.334106] {4294937520}vc-mem: current base check = 0x0f000000 (240 MiB)
+<6>[    7.334136] {4294937520}vc-mem: current load check = 0x1f000000 (496 MiB)
+<6>[    7.334930] {4294937520}vc-cma: Videocore CMA driver
+<6>[    7.334960] {4294937520}vc-cma: vc_cma_base      = 0xcf000000
+<6>[    7.334991] {4294937520}vc-cma: vc_cma_size      = 0x07000000 (112 MiB)
+<6>[    7.334991] {4294937520}vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+<6>[    7.335113] {4294937520}vc-cam: Videocore Camera Firmware driver
+<6>[    7.335296] {4294937520}flightmode_opt_init: called
+<3>[    7.335418] {4294937520}enter GPS_KERNEL_ModuleInit()
+<3>[    7.335449] {4294937520}mydev = 208666624
+<3>[    7.335510] {4294937520}exit sucessfuly GPS_KERNEL_ModuleInit()
+<6>[    7.337280] {4294937520}loop: module loaded
+<6>[    7.337585] {4294937520}zram: Created 1 device(s) ...
+<6>[    7.337646] {4294937520}pmem_setup carveout_base:0  carveout_size:0
+<6>[    7.337677] {4294937520}pmem: init
+<6>[    7.337768] {4294937520}Pmem initialised with 0 hwm pages (pmem)
+<6>[    7.337951] {4294937520}[CM3663] regulator_is_enabled : 1
+<6>[    7.337982] {4294937520}bcmpmuldo_set_voltage(mmcldo2-2800000,2800000)
+<6>[    7.338104] {4294937520}[CM3663] regulator_set_voltage : 0
+<6>[    7.338470] {4294937520}[CM3663] regulator_enable : 0
+<6>[    7.338684] {4294937520}[CM3663] regulator_is_enabled : 0
+<6>[    7.338684] {4294937520}bcmpmuldo_set_voltage(mmcldo1-2800000,2800000)
+<6>[    7.338836] {4294937520}[CM3663] regulator_set_voltage : 0
+<6>[    7.339294] {4294937520}bcmpmureg_enable(mmcldo1)
+<6>[    7.340148] {4294937521}[CM3663] regulator_enable : 0
+<6>[    7.350402] {4294937522}[CM3663] cm3663_i2c_probe start 
+<3>[    7.410339] {4294937528}cm3663_setup_reg: initial proximity value = 1
+<6>[    7.410644] {4294937528}[CM3663] request_irq success IRQ_NO:359, GPIO:59
+<6>[    7.410766] {4294937528}input: proximity_sensor as /devices/virtual/input/input1
+<6>[    7.410949] {4294937528}input: light_sensor as /devices/virtual/input/input2
+<6>[    7.411071] {4294937528}[CM3663] gpio_get_value of GPIO(122) is 0
+<6>[    7.411193] {4294937528}bcmpmu_audio_probe: called.
+<3>[    7.412750] {4294937528}bcmbt_rfkill_probe:  Set vreg_gpio: 98, level: Low
+<3>[    7.412811] {4294937528}bcmblt_probe: n_reset: Low [put into reset]
+<6>[    7.412963] {4294937528}bcmbt_lpm_probe: bt_wake_gpio=97, host_wake_gpio=96, bt_uart_port=1
+<6>[    7.412963] {4294937528}N_BRCM_HCI line discipline registered
+<6>[    7.413024] {4294937528}bcmbt_lpm_init bcmbt_lpm_init success
+<6>[    7.413055] {4294937528}fsa9485_probe
+<6>[    7.413208] {4294937528}input: fsa9485 as /devices/platform/i2c-gpio.8/i2c-8/8-0025/input/input3
+<6>[    7.415435] {4294937528}fsa9485 8-0025:  fsa9485_reg_init dev ID: 0x0
+<6>[    8.458740] {4294937632}bcmpmu_otg_xceiv bcmpmu_otg_xceiv: Vbus invalid
+<6>[    8.478607] {4294937634}bcmpmu_chrgr_event_handler: BCMPMU_CHRGR_UBPD_CHG_F called.
+<6>[    8.494903] {4294937636}update_batt_capacity, extrem batt curr 6830
+<6>[    8.494903] {4294937636}change_fg_full_capacity, 0
+<6>[    8.494934] {4294937636}notify_spa event=24, data=93, pchrgr_on=0x0
+<6>[    8.494934] {4294937636}EM: capacity=93, volt=4078, curr=0, temp=281, die=0
+<6>[    8.494964] {4294937636}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[    8.532318] {4294937640}fsa9485 8-0025:  fsa9485_reg_init dev ID: 0x0
+<4>[    8.550537] {4294937642}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<6>[    8.551269] {4294937642}fsa9485_vbus_check : vbus_status=1 check_vbus=0 mhl_removed=0 audio_dock=0
+<6>[    8.551300] {4294937642}fsa9485_vbus_check init_det_done is not ready
+<6>[    8.640167] {4294937651}fsa9485_probe end.
+<4>[    8.640197] {4294937651}i2c-core: driver [fsa9485] using legacy resume method
+<6>[    8.640441] {4294937651}vchiq_memdrv_kona: Probing 'display' ...
+<6>[    8.640441] {4294937651}vchiq_memdrv_kona: Shared Memory: 0xfd848000
+<6>[    8.640441] {4294937651}vchiq: vchiq_userdrv_create_instance: [bi] vchiq_num_instances = 0, VCHIQ_NUM_VIDEOCORES = 1
+<6>[    8.640472] {4294937651}vchiq_memdrv_kona: connecting
+<6>[    8.640472] {4294937651}vc-mem: current size check = 0x11000000 (272 MiB)
+<6>[    8.640502] {4294937651}vc-mem: current base check = 0x0f000000 (240 MiB)
+<6>[    8.640502] {4294937651}vc-mem: current load check = 0x1f000000 (496 MiB)
+<6>[    8.641326] {4294937651}vchiq: vchiq_memdrv_initialise: ipc shared memory address                       = 0xf5720000
+<6>[    8.641357] {4294937651}vchiq: vchiq_memdrv_initialise: ipc shared memory size (vc+arm channels, extra) = 0x1f000
+<6>[    8.641357] {4294937651}vchiq: vchiq_memdrv_initialise: VCHIQ_MAX_SERVICES        = 4096
+<6>[    8.641357] {4294937651}vchiq: vchiq_init_state: slot_zero = 0xf5720000, is_master = 1
+<6>[    8.642822] {4294937651}[I] vc_sysman_remote_connected_init: start
+<6>[    8.642883] {4294937651}[I] vc_sysman_remote_connected_init: end (ret=0)
+<6>[    8.642913] {4294937651}[I] vc_watchdog_connected_init: start
+<6>[    8.643829] {4294937651}[I] vc_watchdog_connected_init: end (ret=0)
+<6>[    8.645385] {4294937651}vc-cam: connected init
+<6>[    8.645874] {4294937651}vc-cam: service opened
+<6>[    8.646881] {4294937651}vc-cam: notifier opened
+<6>[    8.647521] {4294937651}bcm2079x-i2c 7-0077: bcm2079x_probe, probing bcm2079x driver flags = 0
+<4>[    8.648101] {4294937651}+chal_sspi_init
+<4>[    8.648132] {4294937651}-chal_sspi_init(pDevice = 0xc093c11c
+<4>[    8.648132] {4294937651})
+<6>[    8.648223] {4294937651}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/VC-Firmware) - returns -2
+<6>[    8.648254] {4294937651}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/vc-firmware) - returns -2
+<6>[    8.648376] {4294937651}spi_kona_probe: SSP 0 setup done
+<6>[    8.648468] {4294937651}PPP generic driver version 2.4.2
+<6>[    8.648590] {4294937651}PPP Deflate Compression module registered
+<6>[    8.648590] {4294937651}PPP BSD Compression module registered
+<6>[    8.650238] {4294937652}PPP MPPE Compression module registered
+<6>[    8.650238] {4294937652}NET: Registered protocol family 24
+<6>[    8.650573] {4294937652}tun: Universal TUN/TAP device driver, 1.6
+<6>[    8.650573] {4294937652}tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    8.650787] {4294937652}usbcore: registered new interface driver asix
+<6>[    8.650817] {4294937652}usbcore: registered new interface driver cdc_ether
+<6>[    8.650848] {4294937652}usbcore: registered new interface driver smsc95xx
+<6>[    8.650909] {4294937652}usbcore: registered new interface driver net1080
+<6>[    8.650939] {4294937652}usbcore: registered new interface driver cdc_subset
+<6>[    8.650970] {4294937652}usbcore: registered new interface driver zaurus
+<6>[    8.650970] {4294937652}cdc_ncm: 04-Aug-2011
+<6>[    8.651000] {4294937652}usbcore: registered new interface driver cdc_ncm
+<6>[    8.651062] {4294937652}brcm_netconsole: network logging started
+<6>[    8.651153] {4294937652}host_notifier host_notifier.0: notifier_prove
+<6>[    8.651428] {4294937652}usbcore: registered new interface driver usblp
+<6>[    8.651458] {4294937652}Initializing USB Mass Storage driver...
+<6>[    8.651489] {4294937652}usbcore: registered new interface driver usb-storage
+<6>[    8.651489] {4294937652}USB Mass Storage support registered.
+<6>[    8.651519] {4294937652}usbcore: registered new interface driver libusual
+<6>[    8.651550] {4294937652}dwc_otg: version 2.91a 18-FEB-2009
+<4>[    8.651794] {4294937652}USBD][dwc_otg_core_init] phy_init_done=0
+<4>[    8.651794] {4294937652}USBD][dwc_otg_core_init] call dwc_otg_core_reset
+<4>[    8.651824] {4294937652}USBD][dwc_otg_core_reset] 1
+<4>[    8.651824] {4294937652}dwc_otg_core_reset - recovery_mode:1
+<4>[    8.651824] {4294937652}USBD][exact_mdelay] waiting 120 ms...
+<4>[    8.773559] {4294937664}120 ms delayed
+<4>[    8.773590] {4294937664}USBD][exact_mdelay] done. try to wait 120 ms. 120 ms delayed for this funcion
+<6>[    8.775421] {4294937664}dwc_otg dwc_otg: DWC OTG Controller
+<6>[    8.775573] {4294937664}dwc_otg dwc_otg: new USB bus registered, assigned bus number 1
+<6>[    8.775634] {4294937664}dwc_otg dwc_otg: irq 79, io mem 0x00000000
+<6>[    8.775695] {4294937664}usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    8.775695] {4294937664}usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    8.775726] {4294937664}usb usb1: Product: DWC OTG Controller
+<6>[    8.775726] {4294937664}usb usb1: Manufacturer: Linux 3.0.101+ dwc_otg_hcd
+<6>[    8.775756] {4294937664}usb usb1: SerialNumber: dwc_otg
+<6>[    8.776062] {4294937664}hub 1-0:1.0: USB hub found
+<6>[    8.776092] {4294937664}hub 1-0:1.0: 1 port detected
+<4>[    8.776245] {4294937664}USBD][usb_new_device] USB Host Enumeration & Registration Success
+<4>[    8.776306] {4294937664}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    8.776306] {4294937664}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    8.776336] {4294937664}USBD][bcm_hsotgctrl_phy_set_id_stat] start floating=1
+<4>[    8.776367] {4294937664}[USBD][w_shutdown_core] start
+<4>[    8.776367] {4294937664}[USBD][w_shutdown_core] pcd_stop
+<6>[    8.776397] {4294937664}hsotgctrl_clk=off, clk_usage=1 usb_active:0
+<6>[    8.776428] {4294937664}bcmpmureg_disable(usbldo)
+<7>[    8.777008] {4294937664}Module dwc_common_port init
+<4>[    8.777313] {4294937664}[USBD][w_init_core] start
+<6>[    8.777740] {4294937664}bcmpmureg_enable(usbldo)
+<6>[    8.777832] {4294937664}bcmpmureg_enable:keep init value(usbldo)USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    8.780517] {4294937665}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<6>[    8.780517] {4294937665}hsotgctrl_clk=on, clk_usage=0
+<4>[    8.807891] {4294937667}USBD][bcm_hsotgctrl_phy_set_id_stat] start floating=1
+<4>[    9.010192] {4294937688}USBD][exact_mdelay] waiting 300 ms...
+<4>[    9.314056] {4294937718}300 ms delayed
+<4>[    9.314086] {4294937718}USBD][exact_mdelay] done. try to wait 300 ms. 300 ms delayed for this funcion
+<4>[    9.314086] {4294937718}USBD][dwc_otg_core_init] phy_init_done=1
+<4>[    9.314117] {4294937718}USBD][dwc_otg_core_reset] 1
+<4>[    9.314147] {4294937718}dwc_otg_core_reset - recovery_mode:1
+<4>[    9.314178] {4294937718}USBD][exact_mdelay] waiting 120 ms...
+<6>[    9.339935] {4294937721}fsa9485 8-0025: fsa9485_init_detect
+<6>[    9.340881] {4294937721}fsa9485 8-0025: dev1: 0x4, dev2: 0x0 adc:0x1f
+<6>[    9.340881] {4294937721}fsa9485 8-0025: usb device - connect
+<6>[    9.340881] {4294937721}fsa9485_usb_cb attached 1
+<6>[    9.340881] {4294937721}fsa9485_usb_cb USB attached
+<6>[    9.340911] {4294937721}bcmpmu_otg_xceiv bcmpmu_otg_xceiv: SDP Detected.
+<4>[    9.340911] {4294937721}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: soft disconnect restore, contianer=ea856f00
+<6>[    9.341064] {4294937721}notify_spa event=16, data=3, pchrgr_on=0x1
+<4>[    9.341094] {4294937721}DEBUG:do_work:: Work done: soft disconnect restore, container=ea856f00
+<6>[    9.341735] {4294937721}fsa9485_irq_init
+<6>[    9.341796] {4294937721}bcmpmu_otg_xceiv bcmpmu_otg_xceiv: Charger detect event
+<4>[    9.341796] {4294937721}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    9.341796] {4294937721}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<6>[    9.341827] {4294937721}bcmpmu_chrgr_spa_evt event=16, data=3
+<3>[    9.341918] {4294937721}fsa9485 8-0025: failed to enable wakeup src -6
+<6>[    9.354675] {4294937722}change_fg_full_capacity, 0
+<6>[    9.354675] {4294937722}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[    9.354675] {4294937722}EM: capacity=93, volt=3970, curr=0, temp=281, die=0
+<6>[    9.354705] {4294937722}bcmpmu_chrgr_spa_evt event=24, data=93
+<4>[    9.437805] {4294937730}120 ms delayed
+<4>[    9.437835] {4294937730}USBD][exact_mdelay] done. try to wait 120 ms. 120 ms delayed for this funcion
+<4>[    9.437866] {4294937730}[USBD][w_init_core] pcd start
+<6>[    9.438140] {4294937730}use workqueue push
+<6>[    9.438171] {4294937730}use workqueue push
+<6>[    9.438201] {4294937730}use workqueue push
+<6>[    9.438201] {4294937730}use workqueue push
+<6>[    9.440490] {4294937731}android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[    9.440521] {4294937731}android_usb gadget: Number of LUNs=1
+<6>[    9.440521] {4294937731} lun0: LUN: removable file: (no medium)
+<6>[    9.440734] {4294937731}android_usb gadget: android_usb ready
+<4>[    9.440765] {4294937731}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<4>[    9.440765] {4294937731}USBD][bcmpmu_usb_get] BCMPMU_USB_CTRL_GET_ID_VALUE id_gnd val=7
+<6>[    9.440948] {4294937731}mousedev: PS/2 mouse device common for all mice
+<6>[    9.441436] {4294937731}input: gpio-keys as /devices/platform/gpio-keys/input/input4
+<4>[    9.441558] {4294937731}[GPIO_KEY] code=102, key state=1
+<4>[    9.441558] {4294937731}[GPIO_KEY] code=115, key state=1
+<4>[    9.441589] {4294937731}[GPIO_KEY] code=114, key state=0
+<4>[    9.441741] {4294937731}[TSP] TSP_PowerOnOff, onoff=1
+<6>[    9.441772] {4294937731}bcmpmuldo_set_voltage(vibldo-1800000,1800000)[TSP] TSP_PowerOnOff --> regulator_set_voltage ret = 0 
+<6>[    9.460174] {4294937733}bcmpmuldo_set_voltage(gpldo6-3300000,3300000)[TSP] TSP_PowerOnOff --> regulator_set_voltage ret = 0 
+<4>[    9.462371] {4294937733}[TSP] --> 1.8v regulator_enable ret = 0 
+<6>[    9.480651] {4294937735}bcmpmureg_enable(gpldo6)[TSP] --> 3.3v regulator_enable ret = 0 
+<6>[    9.500183] {4294937737}mxt224_power_on is finished
+<4>[    9.560729] {4294937743}[TSP] mxt224_probe, i2c communication success
+<6>[    9.560852] {4294937743}input: sec_touchscreen as /devices/virtual/input/input5
+<6>[    9.561614] {4294937743}Atmel MXT224 1-004a: family = 0x81, variant = 0x1, version= 0x10, build = 170
+<3>[    9.561645] {4294937743}[TSP] family = 0x81, variant = 0x1, version = 0x10, build = 170
+<3>[    9.572113] {4294937744}[TSP] TSP chip is MXT224-E
+<3>[    9.572418] {4294937744}[TSP]user_info_value is 0
+<3>[    9.650085] {4294937752}[TSP] ta_status is 0
+<3>[    9.650115] {4294937752}[TSP] mxt224_ta_probe
+<3>[    9.655212] {4294937752}[TSP] calibration success!!!
+<4>[    9.655761] {4294937752}bcmpmu_ponkey: ponkey_probe called 
+<6>[    9.659545] {4294937752}input: bcmpmu_on as /devices/platform/bcmpmu_ponkey/input/input6
+<6>[    9.659820] {4294937752}input: bcm_headset as /devices/virtual/input/input7
+<6>[    9.660156] {4294937753}HS GPIO irq 312
+<6>[    9.672149] {4294937754}hs_probe(): Headset probe done.
+<6>[    9.714355] {4294937758}input: mpu6k_input as /devices/virtual/input/input8
+<6>[    9.714996] {4294937758}[MPU6K] request_threaded_irq success IRQ_NO:421
+<6>[    9.715118] {4294937758}mpu6050_input_probe success
+<6>[    9.715148] {4294937758}mpu6050_init()
+<6>[    9.715362] {4294937758}bcmpmu_rtc_probe: called.
+<6>[    9.725097] {4294937759}using rtc device, bcmpmu_rtc, for alarms
+<6>[    9.725128] {4294937759}bcmpmu_rtc bcmpmu_rtc: rtc core: registered bcmpmu_rtc as rtc0
+<6>[    9.725677] {4294937759}ipc:IPCAP_RegisterCPResetHandler(): cp reset handler registered
+<4>[    9.725708] {4294937759}SYS_GenClientID current=64SYS_GenClientID Add new slot=64Island RTC Driver, (c) 2011 Broadcom Corporation
+<6>[    9.743225] {4294937761}island-rtc island-rtc: rtc core: registered island as rtc1
+<6>[    9.745300] {4294937761}RTC: driver initialized properly
+<6>[    9.745330] {4294937761}i2c /dev entries driver
+<4>[    9.746063] {4294937761}spa_ps_init : spa_ps start
+<4>[    9.746429] {4294937761}spa_ps_init : spa_ps end
+<6>[    9.746978] {4294937761}spa_init_config : lpcharging=0, lp_boot_mode=0
+<6>[    9.747802] {4294937761}wd_tapper wd_tapper.0: Probe Success, rate=32768 count=9830400
+<6>[    9.748168] {4294937761}device-mapper: uevent: version 1.0.3
+<6>[    9.748474] {4294937761}device-mapper: ioctl: 4.20.0-ioctl (2011-02-02) initialised: dm-devel@redhat.com
+<6>[    9.749176] {4294937761}cpuidle: using governor ladder
+<6>[    9.749206] {4294937761}cpuidle: using governor menu
+<6>[    9.749237] {4294937761}sdhci: Secure Digital Host Controller Interface driver
+<6>[    9.749267] {4294937761}sdhci: Copyright(c) Pierre Ossman
+<6>[    9.749298] {4294937761}sdhci: modified by Broadcom for SDIO Wireless purposes
+<6>[    9.749725] {4294937762}Found and enabled vddmmc regulator for sdio1
+<3>[    9.749755] {4294937762}Unable to get vddo regulator, err: -19
+<6>[    9.752044] {4294937762}mmc0: no vmmc regulator found
+<7>[    9.752105] {4294937762}Registered led device: mmc0::
+<6>[    9.752197] {4294937762}mmc0: SDHCI controller on bcm_kona_sd [sdhci.1] using ADMA
+<6>[    9.752258] {4294937762}sdio1: card insert emulated!
+<6>[    9.752288] {4294937762}sdio1: initialized properly
+<7>[    9.752319] {4294937762}mmc_power_up: ocr=200000,ocr_avail=360080
+<6>[    9.752349] {4294937762}Enabled by sdhci_pltfm_set_regulator_power
+<6>[    9.762542] {4294937763}SD Card Inserted
+<3>[    9.762878] {4294937763}Unable to get vddmmc regulator, err: -19
+<6>[    9.764129] {4294937763}bcmpmu_chrgr_event_handler: PMU_IRQ_USBINS called.
+<6>[    9.764129] {4294937763}bcmpmu_chrgr_event_handler: PMU_IRQ_USBINS called.
+<6>[    9.766113] {4294937763}mmc1: no vmmc regulator found
+<7>[    9.766174] {4294937763}Registered led device: mmc1::
+<6>[    9.766265] {4294937763}mmc1: SDHCI controller on bcm_kona_sd [sdhci.0] using ADMA
+<3>[    9.766296] {4294937763} capri_wifi_status_register ENTRY
+<6>[    9.766387] {4294937763}sdio0: initialized properly
+<6>[    9.766937] {4294937763}Found and enabled vddmmc regulator for sdio3
+<6>[    9.767944] {4294937763}bcmpmuldo_set_voltage(sdxldo-3000000,3000000)
+<6>[    9.768096] {4294937763}Found and enabled vddo regulator for sdio3
+<6>[    9.771728] {4294937764}update_eoc, eoc_count=0 batt_volt=3998 batt_curr=-231
+<6>[    9.771728] {4294937764}change_fg_full_capacity, 0
+<6>[    9.771728] {4294937764}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[    9.771759] {4294937764}EM: capacity=93, volt=3998, curr=-231, temp=281, die=0
+<6>[    9.771759] {4294937764}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[    9.772613] {4294937764}mmc2: no vmmc regulator found
+<7>[    9.772674] {4294937764}Registered led device: mmc2::
+<6>[    9.772766] {4294937764}mmc2: SDHCI controller on bcm_kona_sd [sdhci.3] using ADMA
+<6>[    9.789947] {4294937766}spa_delayed_init_work : SPA_INIT_PROGRESS_START
+<6>[    9.789978] {4294937766}get_acc_status acc_status=0
+<6>[    9.789978] {4294937766}spa_event_handler : SPV_EVT_CHARGER - 3 
+<6>[    9.790008] {4294937766}spa_update_power_supply_charger : Charger Online : USB TYPE
+<6>[    9.792938] {4294937766}spa_do_status : Do charging 
+<6>[    9.792968] {4294937766}spa_delayed_init_work : test1
+<6>[    9.792968] {4294937766}spa_delayed_init_work : test2
+<6>[    9.792999] {4294937766}spa_delayed_init_work : test3
+<6>[    9.836791] {4294937770}update_eoc, eoc_count=0 batt_volt=3989 batt_curr=-231
+<6>[    9.836791] {4294937770}change_fg_full_capacity, 0
+<6>[    9.836822] {4294937770}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[    9.836822] {4294937770}EM: capacity=93, volt=3989, curr=-231, temp=281, die=0
+<6>[    9.836853] {4294937770}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[    9.910858] {4294937778}SD Card Inserted
+<6>[    9.912231] {4294937778}bcmpmureg_disable(sdxldo)
+<6>[    9.916229] {4294937778}bcmpmureg_disable(sdldo)
+<6>[    9.919158] {4294937778}sdio3: initialized properly
+<6>[    9.919311] {4294937778}BRCM SPUM Hash Driver...
+<6>[    9.919372] {4294937778}SPU Clock set to 208000000 Hz
+<6>[    9.922454] {4294937779}hash_probe: Registered ahash=sha1
+<6>[    9.922851] {4294937779}hash_probe: Registered ahash=sha224
+<6>[    9.922912] {4294937779}hash_probe: Registered ahash=sha256
+<6>[    9.922973] {4294937779}hash_probe: Registered ahash=md5
+<6>[    9.923034] {4294937779}SPUM driver init.
+<6>[    9.923095] {4294937779}BRCM SPUM AES Driver...
+<3>[    9.923156] {4294937779}SPU Clock set to 208000000 Hz
+<6>[    9.923278] {4294937779}aes_probe: Registered alg=ecb(aes)
+<6>[    9.923339] {4294937779}aes_probe: Registered alg=cbc(aes)
+<6>[    9.923400] {4294937779}aes_probe: Registered alg=ctr(aes)
+<6>[    9.923461] {4294937779}aes_probe: Registered alg=xts(aes)
+<6>[    9.924957] {4294937779}usbcore: registered new interface driver usbhid
+<6>[    9.924957] {4294937779}usbhid: USB HID core driver
+<6>[    9.925384] {4294937779}input: geomagnetic as /devices/platform/bsc-i2c.0/i2c-0/0-002e/input/input9
+<6>[    9.925689] {4294937779}input: geomagnetic_raw as /devices/platform/bsc-i2c.0/i2c-0/0-002e/input/input10
+<6>[    9.926086] {4294937779}input: orientation as /devices/virtual/input/input11
+<6>[    9.926300] {4294937779}ALSA Module init called:
+<6>[    9.926452] {4294937779}ALSA-CAPH Driver Probe:
+<6>[    9.926483] {4294937779}
+<6>[    9.926483] {4294937779} ffff8cb3:DriverProbe
+<6>[    9.926635] {4294937779}ALSA-CAPH PcmDeviceNew:call AUDIO_Init
+<6>[    9.926635] {4294937779}AUDDRV_RegisterRateChangeCallback, 0xc047a108
+<6>[    9.926635] {4294937779}AUDDRV_RegisterHandleCPResetCB
+<6>[    9.926910] {4294937779}AUDDRV_Init
+<6>[    9.926910] {4294937779}RPC_SyncRegisterClient: calling RPC_SYS_RegisterClient
+<4>[    9.926940] {4294937779}SYS_GenClientID current=65SYS_GenClientID Add new slot=65
+<6>[    9.926940] {4294937779}Audio_InitRpc 65+chal_sspi_init
+<4>[    9.927215] {4294937779}-chal_sspi_init(pDevice = 0xc093c140
+<4>[    9.927215] {4294937779})+chal_sspi_init
+<4>[    9.927215] {4294937779}-chal_sspi_init(pDevice = 0xc093c164
+<4>[    9.927215] {4294937779})
+<6>[    9.927307] {4294937779}
+<6>[    9.927307] {4294937779} PcmDeviceNew : PcmDeviceNew err=0
+<6>[    9.928466] {4294937779}
+<6>[    9.928466] {4294937779} ffff8cb3:driver register done 0
+<6>[    9.928894] {4294937779}usbcore: registered new interface driver snd-usb-audio
+<6>[    9.928924] {4294937779}ALSA device list:
+<6>[    9.928924] {4294937779}  #0: Broadcom ALSA PCM 0
+<6>[    9.929046] {4294937779}GACT probability NOT on
+<6>[    9.929077] {4294937779}Mirror/redirect action on
+<6>[    9.929077] {4294937779}u32 classifier
+<6>[    9.929077] {4294937779}    Actions configured
+<6>[    9.929077] {4294937779}Netfilter messages via NETLINK v0.30.
+<6>[    9.929138] {4294937779}nf_conntrack version 0.5.0 (12824 buckets, 51296 max)
+<6>[    9.929504] {4294937779}ctnetlink v0.93: registering with nfnetlink.
+<6>[    9.929534] {4294937779}NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    9.929534] {4294937779}NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    9.929840] {4294937779}xt_time: kernel timezone is -0000
+<6>[    9.930206] {4294937780}ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    9.930358] {4294937780}arp_tables: (C) 2002 David S. Miller
+<6>[    9.930389] {4294937780}TCP cubic registered
+<6>[    9.930389] {4294937780}Initializing XFRM netlink socket
+<6>[    9.930969] {4294937780}NET: Registered protocol family 10
+<6>[    9.932006] {4294937780}Mobile IPv6
+<6>[    9.932037] {4294937780}ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    9.932159] {4294937780}IPv6 over IPv4 tunneling driver
+<6>[    9.932861] {4294937780}NET: Registered protocol family 17
+<6>[    9.932922] {4294937780}NET: Registered protocol family 15
+<5>[    9.933013] {4294937780}Bridge firewalling registered
+<6>[    9.933105] {4294937780}Bluetooth: RFCOMM TTY layer initialized
+<6>[    9.933135] {4294937780}Bluetooth: RFCOMM socket layer initialized
+<6>[    9.933166] {4294937780}Bluetooth: RFCOMM ver 1.11
+<6>[    9.933166] {4294937780}Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    9.933197] {4294937780}Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    9.933319] {4294937780}L2TP core driver, V2.0
+<6>[    9.933349] {4294937780}PPPoL2TP kernel driver, V2.0
+<6>[    9.933380] {4294937780}NET: Registered protocol family 35
+<5>[    9.933593] {4294937780}Registering the dns_resolver key type
+<6>[    9.933624] {4294937780}VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+<6>[    9.933654] {4294937780}ThumbEE CPU extension supported.
+<5>[    9.933685] {4294937780}Registering SDIV/UDIV emulation handler
+<6>[    9.933715] {4294937780}capri_pwr_mgr_late_init: power off charging, complete int here
+<6>[    9.933776] {4294937780}--kona_pm_init : registering cpu_idle handlers
+<6>[    9.933807] {4294937780}CAPRI => kona_mach_get_idle_states
+<6>[    9.934051] {4294937780}--kona_pm_init : registering suspend handlers
+<6>[    9.934112] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 0
+<6>[    9.934143] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 1
+<6>[    9.934173] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 2
+<6>[    9.934204] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 3
+<6>[    9.934234] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 4
+<6>[    9.934265] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 5
+<6>[    9.934295] {4294937780}pwr_mgr_pi_set_wakeup_override: CLEAR wakeup override for pi: 6
+<6>[    9.966186] {4294937783}capri_profiler_register
+<6>[    9.966613] {4294937783}vc-mem: current size check = 0x11000000 (272 MiB)
+<6>[    9.966613] {4294937783}vc-mem: current base check = 0x0f000000 (240 MiB)
+<6>[    9.966644] {4294937783}vc-mem: current load check = 0x1f000000 (496 MiB)
+<6>[    9.968139] {4294937783}[vc_panic_init]: 0x1f0021b8, 8 -> 0xdf002000 -> 0xf59ee000, 4096, 0x1b8
+<6>[    9.969451] {4294937783}Enabled by sdhci_pltfm_set_regulator_power
+<6>[    9.991699] {4294937786}detect GPIO 0
+<6>[    9.992889] {4294937786}ipc:vm area:start:0xf59f0000, size:9000
+<7>[    9.992950] {4294937786}ipc:ipcs_module_init(): start ...
+<7>[    9.993194] {4294937786}ipc:ipcs_module_init(): Allocate CP crash dump workqueue
+<7>[    9.993286] {4294937786}ipc:ipcs_module_init(): ioremap_nocache IPC_BASE
+<7>[    9.993408] {4294937786}ipc:ipcs_module_init(): ipcs_init
+<7>[    9.993408] {4294937786}ipc:ipcs_init(): WaitForCpIpc
+<4>[    9.993408] {4294937786}ipc:WaitForCpIpc(): Waiting for CP IPC to init 0xf5c00000
+<4>[    9.993591] {4294937786}ipc:WaitForCpIpc(): NORMAL BOOT
+<4>[    9.993591] {4294937786}AP/CP IPC Version match, AP=0xabcd0002 CP=0xabcd0002
+<4>[    9.993621] {4294937786}ipc:WaitForCpIpc(): Back from IPC_IsCpIpcInit, waited 0 ms
+<4>[    9.993621] {4294937786}ipc:WaitForCpIpc(): CP IPC initialized
+<7>[    9.993621] {4294937786}ipc:ipcs_init(): WaitForCpIpc done
+<7>[    9.993652] {4294937786}ipc:ipcs_init(): ipc_ipc_init done
+<7>[    9.993652] {4294937786}ipc:ipcs_init(): ipcs_ccb_init done
+<7>[    9.993652] {4294937786}ipc:ipcs_ipc_initialised(): IPC Initialization completed
+<7>[    9.993682] {4294937786}ipc:ipcs_init(): IPC_Configured() invoked
+<7>[    9.993682] {4294937786}ipc:ipcs_module_init(): ok
+<7>[    9.993682] {4294937786}ipc:ipcs_module_init(): request_irq
+<7>[    9.993713] {4294937786}ipc:ipcs_module_init(): IRQ Clear and Enable
+<6>[    9.993713] {4294937786}RPC Support 1.00 (BUILD TIME Oct 21 2016 11:28:33)
+<7>[    9.996520] {4294937786}ipc:bcm_create_lock(): IPC: spinlock initialized
+<6>[   10.054046] {4294937792}mmc_read_ext_csd: card->ext_csd.rpmb_size: 131072
+<6>[   10.110076] {4294937798}mmc0: new high speed DDR MMC card at address 0001
+<6>[   10.110839] {4294937798}mmcblk0: mmc0:0001 M8G1WA 7.28 GiB 
+<6>[   10.116210] {4294937798} mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21
+<4>[   10.118377] {4294937798}mmc_rescan- success to rescan mmc0, try to set the default timeout
+<4>[   10.118377] {4294937798}sdhci_pltfm_get_timeout - No SD Card Type, Can Not Set Timeout
+<7>[   10.118408] {4294937798}mmc_power_up: ocr=200000,ocr_avail=360080
+<6>[   10.118469] {4294937798}Enabled by sdhci_pltfm_set_regulator_power
+<6>[   10.317443] {4294937818}OFF by sdhci_pltfm_set_regulator_power
+<7>[   10.317504] {4294937818}mmc_power_up: ocr=200000,ocr_avail=360080
+<6>[   10.317535] {4294937818}Enabled by sdhci_pltfm_set_regulator_power
+<4>[   10.499938] {4294937837}[RPC_Init] 500msec delay 
+<4>[   10.499969] {4294937837}[RPC_Init] done 
+<6>[   10.499969] {4294937837}vc-fb: Videocore framebuffer driver
+<6>[   10.499969] {4294937837}[I] vc_fb_connected_init: start
+<7>[   10.500000] {4294937837}vc_vchi_fb_init: start
+<6>[   10.500701] {4294937837}[I] vc_fb_connected_init: end (ret=0)
+<6>[   10.500701] {4294937837}vc-sm: Videocore shared memory driver
+<6>[   10.500732] {4294937837}[vc_sm_connected_init]: start
+<7>[   10.500732] {4294937837}vc_vchi_sm_init: start
+<7>[   10.501037] {4294937837}vc_vchi_sm_init: success - instance 0xea89e000
+<6>[   10.501220] {4294937837}[vc_sm_connected_init]: end - returning 0
+<6>[   10.501251] {4294937837}[I] vc-pmu-request Videocore PMU request driver
+<6>[   10.501312] {4294937837}[I] vc_pmu_req_probe: start
+<6>[   10.501312] {4294937837}[I] vc_pmu_req_get_regulators : got 0 regulators
+<6>[   10.501342] {4294937837}[D] vc_pmu_req_resume: start
+<6>[   10.501342] {4294937837}[D] vc_pmu_req_resume: no regulators
+<6>[   10.501342] {4294937837}[I] vc_pmu_req_probe: end, ret=0
+<6>[   10.501403] {4294937837}[I] vc_pmu_req_init : Registered Videocore PMU request driver
+<6>[   10.501525] {4294937837}[I] Broadcom vc-display : vchiq_open_service failed
+<6>[   10.501556] {4294937837}[I] vc_display_init : Registered Broadcom vc-display
+<6>[   10.501556] {4294937837}CP crash driver initialized!
+<6>[   10.501586] {4294937837}[TouchKey] tc360_init
+<6>[   10.501647] {4294937837}tc360 4-0020: number of keys= 2
+<6>[   10.501770] {4294937837}input: sec_touchkey as /devices/platform/i2c-gpio.4/i2c-4/4-0020/input/input12
+<7>[   10.502227] {4294937837}Registered led device: button-backlight
+<6>[   10.502899] {4294937837}bcmpmuldo_set_voltage(gpldo5-2800000,2800000)
+<6>[   10.503601] {4294937837}bcmpmureg_enable(gpldo5)
+<6>[   10.504333] {4294937837}tc360_power: on (0)
+<6>[   10.517486] {4294937838}OFF by sdhci_pltfm_set_regulator_power
+<7>[   10.517547] {4294937838}mmc_power_up: ocr=200000,ocr_avail=360080
+<6>[   10.517578] {4294937838}Enabled by sdhci_pltfm_set_regulator_power
+<6>[   10.559936] {4294937843}tc360 4-0020: successfully probed.
+<6>[   10.560943] {4294937843}bcmpmu_rtc bcmpmu_rtc: setting system clock to 2021-12-04 06:54:59 UTC (1638600899)
+<4>[   10.560974] {4294937843}ss_haptic init 
+<4>[   10.561035] {4294937843}ss_brcm_haptic_probe 
+<4>[   10.561096] {4294937843}ss_brcm_haptic_probe : ss vibrator probe
+<6>[   10.561553] {4294937843}Freeing init memory: 236K
+<5>[   10.563568] {4294937843}init: init started!
+<7>[   10.568054] {4294937843}SELinux: 2048 avtab hash slots, 4859 rules.
+<7>[   10.570190] {4294937844}SELinux: 2048 avtab hash slots, 4859 rules.
+<7>[   10.570220] {4294937844}SELinux:  1 users, 2 roles, 530 types, 0 bools, 1 sens, 1024 cats
+<7>[   10.570251] {4294937844}SELinux:  87 classes, 4859 rules
+<7>[   10.571655] {4294937844}SELinux:  Completing initialization.
+<7>[   10.571685] {4294937844}SELinux:  Setting up existing superblocks.
+<7>[   10.571746] {4294937844}SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<7>[   10.571777] {4294937844}SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+<7>[   10.572265] {4294937844}SELinux: initialized (dev bdev, type bdev), not configured for labeling
+<7>[   10.572296] {4294937844}SELinux: initialized (dev proc, type proc), uses genfs_contexts
+<7>[   10.572326] {4294937844}SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   10.572387] {4294937844}SELinux: initialized (dev devtmpfs, type devtmpfs), uses transition SIDs
+<7>[   10.572875] {4294937844}SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+<7>[   10.605010] {4294937847}SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+<7>[   10.605041] {4294937847}SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+<7>[   10.605072] {4294937847}SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+<7>[   10.605102] {4294937847}SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+<7>[   10.605163] {4294937847}SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+<7>[   10.605255] {4294937847}SELinux: initialized (dev configfs, type configfs), not configured for labeling
+<7>[   10.605285] {4294937847}SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<7>[   10.605316] {4294937847}SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+<6>[   10.608001] {4294937847}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=3996, vf_status=1
+<6>[   10.608001] {4294937847}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   10.608032] {4294937847}spa_update_batt_info : capacity = 93
+<6>[   10.608032] {4294937847} notified capacity=93
+<6>[   10.608062] {4294937847}spa_update_batt_info : voltage = 3996
+<6>[   10.650024] {4294937852}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/VC-Firmware) - returns -2
+<6>[   10.650054] {4294937852}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/vc-firmware) - returns -2
+<5>[   10.714996] {4294937858}type=1403 audit(1638600899.640:2): policy loaded auid=4294967295 ses=4294967295
+<5>[   10.715423] {4294937858}type=1404 audit(1638600899.640:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+<6>[   10.717834] {4294937858}OFF by sdhci_pltfm_set_regulator_power
+<7>[   10.717864] {4294937858}mmc_power_up: ocr=200000,ocr_avail=360080
+<6>[   10.717926] {4294937858}Enabled by sdhci_pltfm_set_regulator_power
+<5>[   10.910308] {4294937878}init: (Initializing SELinux enforcing took 0.35s.)
+<5>[   10.916046] {4294937878}type=1400 audit(1638600899.840:4): avc:  denied  { module_request } for  pid=1 comm="init" kmod="personality-8" scontext=u:r:init:s0 tcontext=u:r:kernel:s0 tclass=system permissive=0
+<5>[   10.917144] {4294937878}init: init second stage started!
+<6>[   10.917907] {4294937878}OFF by sdhci_pltfm_set_regulator_power
+<4>[   10.917968] {4294937878}mmc_rescan- failed to rescan mmc1, maybe shorted SD-->try power off
+<4>[   10.917968] {4294937878}sdhci_pltfm_set_timeout - No SD Card Type, Can Not Set Timeout
+<3>[   10.918029] {4294937878}sdhci sdhci.3: Turning ON sdxc sd 
+<6>[   10.920349] {4294937879}bcmpmureg_enable(sdxldo)
+<3>[   10.921081] {4294937879}sdhci sdhci.3: Turning ON vddo sd 
+<6>[   10.921478] {4294937879}bcmpmureg_enable(sdldo)
+<3>[   10.922180] {4294937879}sdhci sdhci.3: Pull-Up CMD/DAT Line  
+<3>[   10.923217] {4294937879}configure_sdmmc_pullup, Congifure Pin with pull_up:1
+<6>[   10.925262] {4294937879}OFF --> Enabled 
+<7>[   10.925292] {4294937879}mmc_power_up: ocr=200000,ocr_avail=360080
+<3>[   10.925354] {4294937879}sdhci sdhci.3: Turning ON sdxc sd 
+<3>[   10.925598] {4294937879}sdhci sdhci.3: Turning ON vddo sd 
+<3>[   10.925720] {4294937879}sdhci sdhci.3: Pull-Up CMD/DAT Line  
+<3>[   10.926757] {4294937879}configure_sdmmc_pullup, Congifure Pin with pull_up:1
+<6>[   10.928802] {4294937879}Enabled by sdhci_pltfm_set_regulator_power
+<6>[   10.990234] {4294937886}bcmpmu_chrgr_enable bcmpmu_chrgr_enable
+<6>[   10.990234] {4294937886}bcmpmu_chrgr_enable event_exist=0, data=1
+<6>[   10.990264] {4294937886}bcmpmu_chrgr_enable: head : 1, tail : 1
+<6>[   10.990264] {4294937886}bcmpmu_chrgr_usb_en: EN :1!!!!
+<3>[   11.010559] {4294937888}sdhci sdhci.3: vddo regulator is set to 3.0V
+<3>[   11.138366] {4294937900}sdhci sdhci.3: Turning ON sdxc sd 
+<3>[   11.139099] {4294937900}sdhci sdhci.3: Turning ON vddo sd 
+<3>[   11.139495] {4294937900}sdhci sdhci.3: Pull-Up CMD/DAT Line  
+<3>[   11.140655] {4294937901}configure_sdmmc_pullup, Congifure Pin with pull_up:1
+<6>[   11.142700] {4294937901}Enabled by sdhci_pltfm_set_regulator_power
+<3>[   11.153961] {4294937902}sdhci sdhci.3: vddo regulator is set to 3.0V
+<6>[   11.290954] {4294937916}bcmpmu_chrgr_usb_en: chrgr_usb_en success
+<6>[   11.362701] {4294937923}mmc2: new high speed SD card at address 0002
+<6>[   11.363464] {4294937923}mmcblk1: mmc2:0002 00000 1.86 GiB 
+<5>[   11.363708] {4294937923}type=1400 audit(1638600900.290:5): avc:  denied  { write } for  pid=70 comm="kworker/u:1" name="/" dev="devtmpfs" ino=3 scontext=u:r:kernel:s0 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+<6>[   11.365783] {4294937923} mmcblk1: p1
+<5>[   11.365875] {4294937923}type=1400 audit(1638600900.290:6): avc:  denied  { write } for  pid=70 comm="kworker/u:1" name="/" dev="devtmpfs" ino=3 scontext=u:r:kernel:s0 tcontext=u:object_r:device:s0 tclass=dir permissive=0
+<4>[   11.366210] {4294937923}mmc_rescan- success to rescan mmc2, try to set the default timeout
+<3>[   11.374053] {4294937924}init: waitpid failed: No child processes
+<5>[   11.375152] {4294937924}init: (Loading properties from /default.prop took 0.00s.)
+<3>[   11.375823] {4294937924}init: /init.rc: 63: invalid command 'load_all_props'
+<3>[   11.375976] {4294937924}init: could not import file '/init.recovery.logd.rc' from '/init.rc'
+<5>[   11.376129] {4294937924}init: (Parsing /init.recovery.usb.rc took 0.00s.)
+<5>[   11.376220] {4294937924}init: (Parsing /init.recovery.service.rc took 0.00s.)
+<3>[   11.376281] {4294937924}init: could not import file '/init.recovery.vold_decrypt.rc' from '/init.rc'
+<3>[   11.376342] {4294937924}init: could not import file '/init.recovery.capri.rc' from '/init.rc'
+<5>[   11.376373] {4294937924}init: (Parsing /init.rc took 0.00s.)
+<5>[   11.376525] {4294937924}type=1400 audit(1638600900.300:7): avc:  denied  { setcheckreqprot } for  pid=1 comm="init" scontext=u:r:init:s0 tcontext=u:object_r:kernel:s0 tclass=security permissive=0
+<5>[   11.376556] {4294937924}init: write_file: Unable to write to '/sys/fs/selinux/checkreqprot': Permission denied
+<5>[   11.376678] {4294937924}type=1400 audit(1638600900.300:8): avc:  denied  { setcurrent } for  pid=1 comm="init" scontext=u:r:init:s0 tcontext=u:r:init:s0 tclass=process permissive=0
+<3>[   11.376739] {4294937924}init: SELinux: Could not get canonical path /postinstall restorecon: No such file or directory.
+<5>[   11.376831] {4294937924}init: Starting service 'ueventd'...
+<5>[   11.377319] {4294937924}init: Starting service 'healthd'...
+<5>[   11.377746] {4294937924}init: Waiting for /dev/.coldboot_done...
+<5>[   11.378173] {4294937924}type=1400 audit(1638600900.300:9): avc:  denied  { module_request } for  pid=120 comm="ueventd" kmod="personality-8" scontext=u:r:ueventd:s0 tcontext=u:r:kernel:s0 tclass=system permissive=0
+<5>[   11.379425] {4294937924}ueventd: ueventd started!
+<5>[   12.082580] {4294937995}ueventd: Coldboot took 0.70s.
+<5>[   12.088958] {4294937995}init: Waiting for /dev/.coldboot_done took 0.71s.
+<7>[   12.091735] {4294937996}SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+<3>[   12.094421] {4294937996}android_usb: already disabled
+<5>[   12.094573] {4294937996}init: write_file: Unable to open '/sys/class/android_usb/android0/f_ffs/aliases': No such file or directory
+<4>[   12.094604] {4294937996}USBD][functions_store] new functions : adb
+<5>[   12.094818] {4294937996}init: (Loading properties from /system/build.prop took 0.00s.)
+<5>[   12.094848] {4294937996}init: (Loading properties from /vendor/build.prop took 0.00s.)
+<5>[   12.094909] {4294937996}init: (Loading properties from /factory/factory.prop took 0.00s.)
+<3>[   12.094970] {4294937996}fs_mgr: Cannot open file /fstab.capri
+<3>[   12.094970] {4294937996}init: unable to read fstab /fstab.capri: No such file or directory
+<5>[   12.095031] {4294937996}init: (Loading properties from /data/local.prop took 0.00s.)
+<3>[   12.095092] {4294937996}init: Unable to open persistent property directory "/data/property": No such file or directory
+<5>[   12.096252] {4294937996}init: Starting service 'set_permissive'...
+<5>[   12.096771] {4294937996}init: Starting service 'recovery'...
+<3>[   12.097412] {4294937996}android_usb: already disabled
+<5>[   12.097564] {4294937996}init: Starting service 'adbd'...
+<4>[   12.102264] {4294937997}USBD][adb_open] ADB node open dev=-360582976
+<6>[   12.110504] {4294937998}pcd_start_clean = 1
+<6>[   12.110595] {4294937998}adb_bind_config
+<4>[   12.116638] {4294937998}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: set max vbus current draw, contianer=eb2858a0
+<4>[   12.116699] {4294937998}DEBUG:do_work:: Work done: set max vbus current draw, container=eb2858a0
+<6>[   12.125030] {4294937999}update_eoc, eoc_count=0 batt_volt=4120 batt_curr=-13
+<6>[   12.125061] {4294937999}change_fg_full_capacity, 0
+<6>[   12.125061] {4294937999}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   12.125061] {4294937999}EM: capacity=93, volt=4120, curr=-13, temp=281, die=0
+<6>[   12.125091] {4294937999}bcmpmu_chrgr_spa_evt event=24, data=93
+<5>[   12.131805] {4294938000}init: Service 'set_permissive' (pid 122) exited with status 0
+<4>[   12.162414] {4294938003}auto brightness=1, brightness=102
+<4>[   12.162445] {4294938003}ld9040_gamma_ctl, gamma_mode=0, lcd->bl=4
+<4>[   12.163665] {4294938003}ld9040_set_acl, acl_enable=0, cur_acl=0,  lcd->bl=4
+<6>[   12.164031] {4294938003}lcd panel: id=0 brightness=102, bl=4, candela=100
+<3>[   12.171569] {4294938004}init: avc:  denied  { set } for property=twrp.crash_counter scontext=u:r:recovery:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service
+<4>[   12.173278] {4294938004}auto brightness=1, brightness=102
+<6>[   12.175109] {4294938004}[I] vc_fb_open: allocating framebuffer for screen 0
+<6>[   12.175140] {4294938004}[I] vc_fb_open:	480x800, bpp=32, num_frames=2, z-order=4294967246, scale=1
+<6>[   12.175170] {4294938004}[I] vc_fb_open:	alpha_per_pixel=0, default_alpha=255, nopad=1
+<4>[   12.211303] {4294938008}USB RESET
+<4>[   12.211334] {4294938008}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: set max vbus current draw, contianer=eb285900
+<6>[   12.211364] {4294938008}android_work: did not send uevent (0 0   (null))
+<4>[   12.211425] {4294938008}DEBUG:do_work:: Work done: set max vbus current draw, container=eb285900
+<6>[   12.219451] {4294938008}update_eoc, eoc_count=1 batt_volt=4176 batt_curr=-13
+<6>[   12.219451] {4294938008}change_fg_full_capacity, 0
+<6>[   12.219482] {4294938008}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   12.219482] {4294938008}EM: capacity=93, volt=4176, curr=-13, temp=281, die=0
+<6>[   12.219512] {4294938008}bcmpmu_chrgr_spa_evt event=24, data=93
+<4>[   12.260375] {4294938012}auto brightness=1, brightness=102
+<4>[   12.299865] {4294938016}USB addr = 18
+<6>[   12.305297] {4294938017}android_work: sent uevent USB_STATE=CONNECTED
+<3>[   12.311553] {4294938018}[TSP] Calibration End!!!!!!
+<3>[   12.313018] {4294938018}[TSP] Calibration End!!!!!!
+<3>[   12.314514] {4294938018}[TSP] sec_touchscreen_enable
+<7>[   12.317413] {4294938018}usb: set_config_number single config
+<7>[   12.317443] {4294938018}usb: set_interface_count next_interface_id=1
+<7>[   12.345275] {4294938021}usb: set_config_number single config
+<7>[   12.345275] {4294938021}usb: set_interface_count next_interface_id=1
+<7>[   12.345428] {4294938021}usb: set_config_number single config
+<7>[   12.345428] {4294938021}usb: set_interface_count next_interface_id=1
+<6>[   12.345733] {4294938021}android_usb gadget: high speed config #1: android
+<4>[   12.345764] {4294938021}USBD][set_config] adb interface is configured
+<4>[   12.345794] {4294938021}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: set max vbus current draw, contianer=eb285900
+<4>[   12.345855] {4294938021}DEBUG:do_work:: Work done: set max vbus current draw, container=eb285900
+<4>[   12.345855] {4294938021}USBD][android_work] Gadget Enumeration Success 
+<6>[   12.345916] {4294938021}android_work: sent uevent USB_STATE=CONFIGURED
+<6>[   12.358734] {4294938022}update_eoc, eoc_count=1 batt_volt=4176 batt_curr=-13
+<6>[   12.358764] {4294938022}change_fg_full_capacity, 0
+<6>[   12.358764] {4294938022}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   12.358795] {4294938022}EM: capacity=93, volt=4176, curr=-13, temp=281, die=0
+<6>[   12.358795] {4294938022}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   12.494750] {4294938036}EXT4-fs (mmcblk0p18): recovery complete
+<6>[   12.495635] {4294938036}EXT4-fs (mmcblk0p18): mounted filesystem with ordered data mode. Opts: 
+<7>[   12.495666] {4294938036}SELinux: initialized (dev mmcblk0p18, type ext4), uses xattr
+<6>[   12.495849] {4294938036}SELinux:  Context u:object_r:cache_recovery_file:s0 is not valid (left unmapped).
+<4>[   12.660644] {4294938053}audit_printk_skb: 45 callbacks suppressed
+<5>[   12.660675] {4294938053}type=1400 audit(1638600901.591:25): avc:  denied  { read write } for  pid=68 comm="kcamfwchk" name="mmcblk0p15" dev="tmpfs" ino=3192 scontext=u:r:kernel:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+<5>[   12.660736] {4294938053}type=1400 audit(1638600901.591:26): avc:  denied  { open } for  pid=68 comm="kcamfwchk" name="mmcblk0p15" dev="tmpfs" ino=3192 scontext=u:r:kernel:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+<6>[   12.660766] {4294938053}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/VC-Firmware) - returns 0
+<6>[   12.660766] {4294938053}fwchk_worker_proc: apply check now...
+<6>[   12.660797] {4294938053}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/VC-Firmware) - returns 0
+<6>[   12.662963] {4294938053}vc_size_from_ver: detected version 0x00000001
+<6>[   12.662963] {4294938053}vc_size_from_ver: detected legacy size of 3860640
+<6>[   12.662994] {4294938053}vc_size_from_ver: detected new size of 4041088
+<6>[   12.662994] {4294938053}check_cam_fw_size: vc-size 4041088 (bytes)
+<6>[   12.663024] {4294938053}check_cam_fw_size: sys_lseek to 4041088, returns 4041088
+<6>[   12.665924] {4294938053}check_cam_fw_size: cam-fw 0 (bytes)
+<6>[   12.665924] {4294938053}check_cam_fw_size: cam-crc 0x0
+<6>[   12.665985] {4294938053}send_vc_msg: sending message 1002
+<6>[   12.666107] {4294938053}VC_CAMDUAL_CMD_RECEIVE_GET_BUF(0x00000000,0)
+<6>[   12.666137] {4294938053}cam_vc_to_emmc: vc_addr 0x00000000, vc_size 0
+<6>[   12.666168] {4294938053}open_vc_partition: sys_open(/dev/block/platform/sdhci.1/by-name/VC-Firmware) - returns 0
+<6>[   12.667053] {4294938053}vc_size_from_ver: detected version 0x00000001
+<6>[   12.667053] {4294938053}vc_size_from_ver: detected legacy size of 3860640
+<6>[   12.667083] {4294938053}vc_size_from_ver: detected new size of 4041088
+<6>[   12.667083] {4294938053}write_cam_fw_size: vc-size 4041088 (bytes)
+<6>[   12.667114] {4294938053}write_cam_fw_size: sys_lseek to 4041088, returns 4041088
+<6>[   12.670288] {4294938053}write_cam_fw_size: cam-fw 0 (0) - ret 4
+<6>[   12.670288] {4294938053}write_cam_fw_size: cam-crc 0x0 (0x0) - ret 4
+<6>[   12.671844] {4294938054}send_vc_msg: sending message 1003
+<6>[   12.863372] {4294938073}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4008, vf_status=1
+<6>[   12.863372] {4294938073}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   12.863403] {4294938073}spa_update_batt_info : capacity = 93
+<6>[   12.863403] {4294938073} notified capacity=93
+<6>[   12.863433] {4294938073}spa_update_batt_info : voltage = 4008
+<6>[   12.906066] {4294938077}EXT4-fs (mmcblk0p21): recovery complete
+<6>[   12.907531] {4294938077}EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+<7>[   12.907562] {4294938077}SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+<5>[   12.908386] {4294938077}type=1400 audit(1638600901.831:27): avc:  denied  { getattr } for  pid=123 comm="recovery" path="/data/media" dev="mmcblk0p21" ino=171361 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=dir permissive=1
+<5>[   12.936370] {4294938080}type=1400 audit(1638600901.861:28): avc:  denied  { search } for  pid=123 comm="recovery" name="media" dev="mmcblk0p21" ino=171361 scontext=u:r:recovery:s0 tcontext=u:object_r:media_rw_data_file:s0 tclass=dir permissive=1
+<6>[   12.998107] {4294938086}EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+<7>[   12.998138] {4294938086}SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+<4>[   13.030670] {4294938090}
+<4>[   13.030700] {4294938090} Debug: gpio_keys_isr called 
+<4>[   13.030731] {4294938090}[GPIO_KEY] code=102, key state=0
+<4>[   13.054351] {4294938092}onkey released
+<4>[   13.056579] {4294938092}
+<4>[   13.056579] {4294938092} Debug: gpio_keys_isr called 
+<4>[   13.056610] {4294938092}[GPIO_KEY] code=115, key state=0
+<6>[   13.078125] {4294938094}EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+<7>[   13.078155] {4294938094}SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+<6>[   13.148101] {4294938101}EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: 
+<7>[   13.148132] {4294938101}SELinux: initialized (dev mmcblk0p21, type ext4), uses xattr
+<5>[   13.177978] {4294938104}type=1400 audit(1638600902.101:29): avc:  denied  { create } for  pid=123 comm="recovery" name="fstab" scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=1
+<5>[   13.178039] {4294938104}type=1400 audit(1638600902.101:30): avc:  denied  { write } for  pid=123 comm="recovery" name="fstab" dev="rootfs" ino=3279 scontext=u:r:recovery:s0 tcontext=u:object_r:rootfs:s0 tclass=file permissive=1
+<5>[   13.181701] {4294938105}type=1400 audit(1638600902.111:31): avc:  denied  { open } for  pid=123 comm="recovery" name="storage.xml" dev="mmcblk0p21" ino=155124 scontext=u:r:recovery:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=1
+<6>[   13.210357] {4294938107}EXT4-fs (mmcblk0p17): recovery complete
+<6>[   13.211395] {4294938108}EXT4-fs (mmcblk0p17): mounted filesystem with ordered data mode. Opts: 
+<7>[   13.211425] {4294938108}SELinux: initialized (dev mmcblk0p17, type ext4), uses xattr
+<5>[   13.211883] {4294938108}type=1400 audit(1638600902.141:32): avc:  denied  { search } for  pid=123 comm="recovery" name="/" dev="mmcblk0p17" ino=2 scontext=u:r:recovery:s0 tcontext=u:object_r:efs_file:s0 tclass=dir permissive=1
+<5>[   13.211944] {4294938108}type=1400 audit(1638600902.141:33): avc:  denied  { getattr } for  pid=123 comm="recovery" path="/efs" dev="mmcblk0p17" ino=2 scontext=u:r:recovery:s0 tcontext=u:object_r:efs_file:s0 tclass=dir permissive=1
+<6>[   13.277160] {4294938114}EXT4-fs (mmcblk0p19): mounted filesystem without journal. Opts: 
+<7>[   13.277221] {4294938114}SELinux: initialized (dev mmcblk0p19, type ext4), uses xattr
+<6>[   13.321136] {4294938119}EXT4-fs (mmcblk0p20): mounted filesystem with ordered data mode. Opts: 
+<7>[   13.321166] {4294938119}SELinux: initialized (dev mmcblk0p20, type ext4), uses xattr
+<5>[   13.430725] {4294938130}type=1400 audit(1638600902.362:34): avc:  denied  { read } for  pid=123 comm="recovery" name="/" dev="mmcblk0p21" ino=2 scontext=u:r:recovery:s0 tcontext=u:object_r:system_data_file:s0 tclass=dir permissive=1
+<6>[   13.437835] {4294938130}SELinux:  Context u:object_r:recovery_data_file:s0 is not valid (left unmapped).
+<6>[   13.439880] {4294938130}SELinux:  Context u:object_r:bluetooth_logs_data_file:s0 is not valid (left unmapped).
+<6>[   13.446044] {4294938131}SELinux:  Context u:object_r:textclassifier_data_file:s0 is not valid (left unmapped).
+<6>[   13.447540] {4294938131}SELinux:  Context u:object_r:hostapd_socket:s0 is not valid (left unmapped).
+<6>[   13.449890] {4294938131}SELinux:  Context u:object_r:audioserver_data_file:s0 is not valid (left unmapped).
+<6>[   13.450592] {4294938132}SELinux:  Context u:object_r:boottrace_data_file:s0 is not valid (left unmapped).
+<6>[   13.451049] {4294938132}SELinux:  Context u:object_r:update_engine_data_file:s0 is not valid (left unmapped).
+<6>[   13.451446] {4294938132}SELinux:  Context u:object_r:method_trace_data_file:s0 is not valid (left unmapped).
+<6>[   13.451568] {4294938132}SELinux:  Context u:object_r:reboot_data_file:s0 is not valid (left unmapped).
+<6>[   13.451873] {4294938132}SELinux:  Context u:object_r:user_profile_data_file:s0 is not valid (left unmapped).
+<6>[   13.482543] {4294938135}SELinux:  Context u:object_r:profman_dump_data_file:s0 is not valid (left unmapped).
+<6>[   13.483001] {4294938135}SELinux:  Context u:object_r:bootstat_data_file:s0 is not valid (left unmapped).
+<6>[   13.530609] {4294938140}SELinux:  Context u:object_r:ota_data_file:s0 is not valid (left unmapped).
+<6>[   13.531494] {4294938140}SELinux:  Context u:object_r:ota_package_file:s0 is not valid (left unmapped).
+<6>[   13.586669] {4294938145}SELinux:  Context u:object_r:cache_private_backup_file:s0 is not valid (left unmapped).
+<7>[   13.653228] {4294938152}SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+<6>[   13.880035] {4294938174}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4018, vf_status=1
+<6>[   13.880065] {4294938174}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   13.880096] {4294938174}spa_update_batt_info : capacity = 93
+<6>[   13.880096] {4294938174} notified capacity=93
+<6>[   13.880096] {4294938174}spa_update_batt_info : voltage = 4018
+<7>[   14.583587] {4294938245}SELinux: initialized (dev mmcblk1p1, type vfat), uses genfs_contexts
+<4>[   14.818267] {4294938268}auto brightness=1, brightness=102
+<3>[   14.823028] {4294938269}init: avc:  denied  { set } for property=sys.usb.config scontext=u:r:recovery:s0 tcontext=u:object_r:system_radio_prop:s0 tclass=property_service
+<6>[   14.823272] {4294938269}pcd_start_clean = 0
+<4>[   14.823455] {4294938269}USBD][adb_release] ADB node close 
+<3>[   14.823577] {4294938269}android_usb: already disabled
+<4>[   14.823638] {4294938269}USBD][functions_store] new functions : mtp,adb
+<4>[   14.823791] {4294938269}USBD][adb_open] ADB node open dev=-360582976
+<6>[   14.823791] {4294938269}pcd_start_clean = 1
+<6>[   14.823883] {4294938269}mtp_bind_config
+<6>[   14.823913] {4294938269}adb_bind_config
+<4>[   14.829925] {4294938269}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: set max vbus current draw, contianer=eb285ba0
+<4>[   14.829956] {4294938269}DEBUG:do_work:: Work done: set max vbus current draw, container=eb285ba0
+<6>[   14.839752] {4294938270}update_eoc, eoc_count=1 batt_volt=4167 batt_curr=114
+<6>[   14.839752] {4294938270}change_fg_full_capacity, 0
+<6>[   14.839752] {4294938270}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   14.839782] {4294938270}EM: capacity=93, volt=4167, curr=114, temp=281, die=0
+<6>[   14.839782] {4294938270}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   14.847442] {4294938271}EXT4-fs (mmcblk0p19): mounted filesystem without journal. Opts: 
+<7>[   14.847473] {4294938271}SELinux: initialized (dev mmcblk0p19, type ext4), uses xattr
+<4>[   14.945831] {4294938281}USB RESET
+<4>[   14.945892] {4294938281}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: set max vbus current draw, contianer=eb285c00
+<6>[   14.945953] {4294938281}android_work: sent uevent USB_STATE=DISCONNECTED
+<4>[   14.950653] {4294938282}DEBUG:do_work:: Work done: set max vbus current draw, container=eb285c00
+<6>[   14.958831] {4294938282}update_eoc, eoc_count=1 batt_volt=4162 batt_curr=114
+<6>[   14.958831] {4294938282}change_fg_full_capacity, 0
+<6>[   14.958862] {4294938282}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   14.958862] {4294938282}EM: capacity=93, volt=4162, curr=114, temp=281, die=0
+<6>[   14.958892] {4294938282}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   15.033538] {4294938290}android_work: sent uevent USB_STATE=CONNECTED
+<4>[   15.033691] {4294938290}USB addr = 19
+<7>[   15.051452] {4294938292}usb: set_config_number single config
+<7>[   15.051452] {4294938292}usb: set_interface_count next_interface_id=2
+<7>[   15.082244] {4294938295}usb: set_config_number single config
+<7>[   15.082244] {4294938295}usb: set_interface_count next_interface_id=2
+<7>[   15.082366] {4294938295}usb: set_config_number single config
+<7>[   15.082366] {4294938295}usb: set_interface_count next_interface_id=2
+<6>[   15.083953] {4294938295}android_usb gadget: high speed config #1: android
+<4>[   15.083984] {4294938295}USBD][set_config] mtp interface is configured
+<4>[   15.083984] {4294938295}USBD][set_config] adb interface is configured
+<4>[   15.084014] {4294938295}DEBUG:DWC_WORKQ_SCHEDULE:: Queueing work: set max vbus current draw, contianer=eb285c00
+<4>[   15.084045] {4294938295}USBD][android_work] Gadget Enumeration Success 
+<6>[   15.084075] {4294938295}android_work: sent uevent USB_STATE=CONFIGURED
+<4>[   15.084136] {4294938295}DEBUG:do_work:: Work done: set max vbus current draw, container=eb285c00
+<6>[   15.097534] {4294938296}update_eoc, eoc_count=1 batt_volt=4171 batt_curr=114
+<6>[   15.097564] {4294938296}change_fg_full_capacity, 0
+<6>[   15.097564] {4294938296}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   15.097564] {4294938296}EM: capacity=93, volt=4171, curr=114, temp=281, die=0
+<6>[   15.097595] {4294938296}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   15.623992] {4294938349}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4028, vf_status=1
+<6>[   15.623992] {4294938349}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   15.624023] {4294938349}spa_update_batt_info : capacity = 93
+<6>[   15.624023] {4294938349} notified capacity=93
+<6>[   15.624053] {4294938349}spa_update_batt_info : voltage = 4028
+<6>[   15.627044] {4294938349}mtp_open
+<6>[   16.639587] {4294938450}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4041, vf_status=1
+<6>[   16.639617] {4294938450}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   16.639648] {4294938450}spa_update_batt_info : capacity = 93
+<6>[   16.639648] {4294938450} notified capacity=93
+<6>[   16.639648] {4294938450}spa_update_batt_info : voltage = 4041
+<6>[   17.671295] {4294938554}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4052, vf_status=1
+<6>[   17.671325] {4294938554}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   17.671356] {4294938554}spa_update_batt_info : capacity = 93
+<6>[   17.671356] {4294938554} notified capacity=93
+<6>[   17.671356] {4294938554}spa_update_batt_info : voltage = 4052
+<6>[   18.710144] {4294938657}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4063, vf_status=1
+<6>[   18.710174] {4294938657}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   18.710205] {4294938657}spa_update_batt_info : capacity = 93
+<6>[   18.710205] {4294938657} notified capacity=93
+<6>[   18.710205] {4294938657}spa_update_batt_info : voltage = 4063
+<6>[   19.713348] {4294938758}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4073, vf_status=1
+<6>[   19.713378] {4294938758}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   19.713409] {4294938758}spa_update_batt_info : capacity = 93
+<6>[   19.713409] {4294938758} notified capacity=93
+<6>[   19.713439] {4294938758}spa_update_batt_info : voltage = 4073
+<6>[   19.790588] {4294938766}spa_delayed_init_work : SPA_INIT_PROGRESS_DONE
+<6>[   20.122497] {4294938799}update_eoc, eoc_count=0 batt_volt=4185 batt_curr=177
+<6>[   20.122497] {4294938799}change_fg_full_capacity, 0
+<6>[   20.122497] {4294938799}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   20.122528] {4294938799}EM: capacity=93, volt=4185, curr=177, temp=281, die=0
+<6>[   20.122528] {4294938799}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   20.644256] {4294938851}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4085, vf_status=1
+<6>[   20.644287] {4294938851}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   20.644317] {4294938851}spa_update_batt_info : capacity = 93
+<6>[   20.644317] {4294938851} notified capacity=93
+<6>[   20.644317] {4294938851}spa_update_batt_info : voltage = 4085
+<6>[   25.138946] {4294939300}update_eoc, eoc_count=0 batt_volt=4190 batt_curr=245
+<6>[   25.138946] {4294939300}change_fg_full_capacity, 0
+<6>[   25.138946] {4294939300}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   25.138977] {4294939300}EM: capacity=93, volt=4190, curr=245, temp=281, die=0
+<6>[   25.138977] {4294939300}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   25.671691] {4294939354}spa_batt_work : temp=289, temp_adc=205, capacity=93, voltage=4096, vf_status=1
+<6>[   25.671722] {4294939354}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   25.671722] {4294939354}spa_update_batt_info : capacity = 93
+<6>[   25.671752] {4294939354} notified capacity=93
+<6>[   25.671752] {4294939354}spa_update_batt_info : voltage = 4096
+<6>[   30.182708] {4294939805}update_eoc, eoc_count=0 batt_volt=4200 batt_curr=243
+<6>[   30.182708] {4294939805}change_fg_full_capacity, 0
+<6>[   30.182739] {4294939805}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   30.182739] {4294939805}EM: capacity=93, volt=4200, curr=243, temp=280, die=0
+<6>[   30.182739] {4294939805}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   30.720825] {4294939859}spa_batt_work : temp=288, temp_adc=206, capacity=93, voltage=4110, vf_status=1
+<6>[   30.720855] {4294939859}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   30.720855] {4294939859}spa_update_batt_info : capacity = 93
+<6>[   30.720886] {4294939859} notified capacity=93
+<6>[   30.720886] {4294939859}spa_update_batt_info : voltage = 4110
+<6>[   35.232208] {4294940310}update_eoc, eoc_count=0 batt_volt=4200 batt_curr=241
+<6>[   35.232208] {4294940310}change_fg_full_capacity, 0
+<6>[   35.232238] {4294940310}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   35.232238] {4294940310}EM: capacity=93, volt=4200, curr=241, temp=279, die=0
+<6>[   35.232269] {4294940310}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   35.771514] {4294940364}spa_batt_work : temp=288, temp_adc=206, capacity=93, voltage=4124, vf_status=1
+<6>[   35.771545] {4294940364}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   35.771545] {4294940364}spa_update_batt_info : capacity = 93
+<6>[   35.771575] {4294940364} notified capacity=93
+<6>[   35.771575] {4294940364}spa_update_batt_info : voltage = 4124
+<6>[   40.282318] {4294940815}update_eoc, eoc_count=0 batt_volt=4200 batt_curr=239
+<6>[   40.282318] {4294940815}change_fg_full_capacity, 0
+<6>[   40.282348] {4294940815}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   40.282348] {4294940815}EM: capacity=93, volt=4200, curr=239, temp=279, die=0
+<6>[   40.282379] {4294940815}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   40.821166] {4294940869}spa_batt_work : temp=288, temp_adc=207, capacity=93, voltage=4138, vf_status=1
+<6>[   40.821197] {4294940869}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   40.821197] {4294940869}spa_update_batt_info : capacity = 93
+<6>[   40.821228] {4294940869} notified capacity=93
+<6>[   40.821228] {4294940869}spa_update_batt_info : voltage = 4138
+<6>[   45.332855] {4294941320}update_eoc, eoc_count=0 batt_volt=4176 batt_curr=238
+<6>[   45.332855] {4294941320}change_fg_full_capacity, 0
+<6>[   45.332885] {4294941320}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   45.332885] {4294941320}EM: capacity=93, volt=4176, curr=238, temp=279, die=0
+<6>[   45.332885] {4294941320}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   45.870574] {4294941374}spa_batt_work : temp=288, temp_adc=207, capacity=93, voltage=4151, vf_status=1
+<6>[   45.870605] {4294941374}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   45.870605] {4294941374}spa_update_batt_info : capacity = 93
+<6>[   45.870635] {4294941374} notified capacity=93
+<6>[   45.870635] {4294941374}spa_update_batt_info : voltage = 4151
+<6>[   50.371459] {4294941824}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=212
+<6>[   50.371459] {4294941824}change_fg_full_capacity, 0
+<6>[   50.371459] {4294941824}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   50.371490] {4294941824}EM: capacity=93, volt=4204, curr=212, temp=277, die=0
+<6>[   50.371490] {4294941824}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   50.889526] {4294941875}spa_batt_work : temp=288, temp_adc=207, capacity=93, voltage=4166, vf_status=1
+<6>[   50.889556] {4294941875}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   50.889587] {4294941875}spa_update_batt_info : capacity = 93
+<6>[   50.889587] {4294941875} notified capacity=93
+<6>[   50.889587] {4294941875}spa_update_batt_info : voltage = 4166
+<6>[   55.422027] {4294942329}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=235
+<6>[   55.422027] {4294942329}change_fg_full_capacity, 0
+<6>[   55.422058] {4294942329}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   55.422058] {4294942329}EM: capacity=93, volt=4204, curr=235, temp=277, die=0
+<6>[   55.422058] {4294942329}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   55.959350] {4294942382}spa_batt_work : temp=288, temp_adc=208, capacity=93, voltage=4180, vf_status=1
+<6>[   55.959381] {4294942382}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   55.959411] {4294942382}spa_update_batt_info : capacity = 93
+<6>[   55.959411] {4294942382} notified capacity=93
+<6>[   55.959411] {4294942382}spa_update_batt_info : voltage = 4180
+<6>[   60.472351] {4294942834}update_eoc, eoc_count=0 batt_volt=4200 batt_curr=233
+<6>[   60.472351] {4294942834}change_fg_full_capacity, 0
+<6>[   60.472381] {4294942834}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   60.472381] {4294942834}EM: capacity=93, volt=4200, curr=233, temp=277, die=0
+<6>[   60.472381] {4294942834}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   61.011779] {4294942888}spa_batt_work : temp=288, temp_adc=208, capacity=93, voltage=4194, vf_status=1
+<6>[   61.011810] {4294942888}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   61.011810] {4294942888}spa_update_batt_info : capacity = 93
+<6>[   61.011840] {4294942888} notified capacity=93
+<6>[   61.011840] {4294942888}spa_update_batt_info : voltage = 4194
+<6>[   65.521057] {4294943339}update_eoc, eoc_count=0 batt_volt=4214 batt_curr=232
+<6>[   65.521057] {4294943339}change_fg_full_capacity, 0
+<6>[   65.521087] {4294943339}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   65.521087] {4294943339}EM: capacity=93, volt=4214, curr=232, temp=276, die=0
+<6>[   65.521087] {4294943339}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   66.061859] {4294943393}spa_batt_work : temp=287, temp_adc=208, capacity=93, voltage=4195, vf_status=1
+<6>[   66.061889] {4294943393}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   66.061889] {4294943393}spa_update_batt_info : capacity = 93
+<6>[   66.061920] {4294943393} notified capacity=93
+<6>[   66.061920] {4294943393}spa_update_batt_info : voltage = 4195
+<6>[   70.571716] {4294943844}update_eoc, eoc_count=0 batt_volt=4171 batt_curr=231
+<6>[   70.571716] {4294943844}change_fg_full_capacity, 0
+<6>[   70.571716] {4294943844}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   70.571746] {4294943844}EM: capacity=93, volt=4171, curr=231, temp=276, die=0
+<6>[   70.571746] {4294943844}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   71.110565] {4294943898}spa_batt_work : temp=287, temp_adc=209, capacity=93, voltage=4197, vf_status=1
+<6>[   71.110595] {4294943898}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   71.110626] {4294943898}spa_update_batt_info : capacity = 93
+<6>[   71.110626] {4294943898} notified capacity=93
+<6>[   71.110626] {4294943898}spa_update_batt_info : voltage = 4197
+<4>[   74.901885] {4294944277}auto brightness=1, brightness=5
+<4>[   74.901916] {4294944277}ld9040_gamma_ctl, gamma_mode=0, lcd->bl=0
+<4>[   74.903137] {4294944277}ld9040_set_acl, acl_enable=0, cur_acl=0,  lcd->bl=0
+<6>[   74.903533] {4294944277}lcd panel: id=0 brightness=5, bl=0, candela=30
+<6>[   75.620666] {4294944349}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=231
+<6>[   75.620666] {4294944349}change_fg_full_capacity, 0
+<6>[   75.620697] {4294944349}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   75.620697] {4294944349}EM: capacity=93, volt=4204, curr=231, temp=276, die=0
+<6>[   75.620727] {4294944349}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   76.142486] {4294944401}spa_batt_work : temp=287, temp_adc=209, capacity=93, voltage=4198, vf_status=1
+<6>[   76.142517] {4294944401}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   76.142547] {4294944401}spa_update_batt_info : capacity = 93
+<6>[   76.142547] {4294944401} notified capacity=93
+<6>[   76.142547] {4294944401}spa_update_batt_info : voltage = 4198
+<4>[   76.909027] {4294944477}auto brightness=1, brightness=0
+<6>[   80.672271] {4294944854}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=230
+<6>[   80.672271] {4294944854}change_fg_full_capacity, 0
+<6>[   80.672302] {4294944854}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   80.672302] {4294944854}EM: capacity=93, volt=4204, curr=230, temp=276, die=0
+<6>[   80.672302] {4294944854}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   81.209899] {4294944907}spa_batt_work : temp=286, temp_adc=209, capacity=93, voltage=4198, vf_status=1
+<6>[   81.209930] {4294944907}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   81.209930] {4294944907}spa_update_batt_info : capacity = 93
+<6>[   81.209960] {4294944907} notified capacity=93
+<6>[   81.209960] {4294944907}spa_update_batt_info : voltage = 4198
+<6>[   85.721679] {4294945359}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=229
+<6>[   85.721679] {4294945359}change_fg_full_capacity, 0
+<6>[   85.721679] {4294945359}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   85.721710] {4294945359}EM: capacity=93, volt=4204, curr=229, temp=276, die=0
+<6>[   85.721710] {4294945359}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   86.260162] {4294945412}spa_batt_work : temp=286, temp_adc=209, capacity=93, voltage=4198, vf_status=1
+<6>[   86.260162] {4294945412}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   86.260192] {4294945412}spa_update_batt_info : capacity = 93
+<6>[   86.260192] {4294945412} notified capacity=93
+<6>[   86.260223] {4294945412}spa_update_batt_info : voltage = 4198
+<6>[   90.772216] {4294945864}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=228
+<6>[   90.772216] {4294945864}change_fg_full_capacity, 0
+<6>[   90.772216] {4294945864}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   90.772247] {4294945864}EM: capacity=93, volt=4204, curr=228, temp=276, die=0
+<6>[   90.772247] {4294945864}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   91.311035] {4294945918}spa_batt_work : temp=286, temp_adc=209, capacity=93, voltage=4199, vf_status=1
+<6>[   91.311065] {4294945918}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   91.311065] {4294945918}spa_update_batt_info : capacity = 93
+<6>[   91.311065] {4294945918} notified capacity=93
+<6>[   91.311096] {4294945918}spa_update_batt_info : voltage = 4199
+<6>[   95.822784] {4294946369}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=226
+<6>[   95.822784] {4294946369}change_fg_full_capacity, 0
+<6>[   95.822814] {4294946369}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[   95.822814] {4294946369}EM: capacity=93, volt=4204, curr=226, temp=276, die=0
+<6>[   95.822845] {4294946369}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[   96.360870] {4294946423}spa_batt_work : temp=285, temp_adc=209, capacity=93, voltage=4201, vf_status=1
+<6>[   96.360900] {4294946423}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[   96.360931] {4294946423}spa_update_batt_info : capacity = 93
+<6>[   96.360931] {4294946423} notified capacity=93
+<6>[   96.360931] {4294946423}spa_update_batt_info : voltage = 4201
+<6>[  100.871063] {4294946874}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=226
+<6>[  100.871093] {4294946874}change_fg_full_capacity, 0
+<6>[  100.871093] {4294946874}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[  100.871124] {4294946874}EM: capacity=93, volt=4204, curr=226, temp=276, die=0
+<6>[  100.871124] {4294946874}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[  101.389099] {4294946925}spa_batt_work : temp=285, temp_adc=209, capacity=93, voltage=4201, vf_status=1
+<6>[  101.389129] {4294946925}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[  101.389160] {4294946925}spa_update_batt_info : capacity = 93
+<6>[  101.389160] {4294946925} notified capacity=93
+<6>[  101.389160] {4294946925}spa_update_batt_info : voltage = 4201
+<6>[  105.905456] {4294947377}update_eoc, eoc_count=0 batt_volt=4195 batt_curr=225
+<6>[  105.905456] {4294947377}change_fg_full_capacity, 0
+<6>[  105.905487] {4294947377}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[  105.905487] {4294947377}EM: capacity=93, volt=4195, curr=225, temp=275, die=0
+<6>[  105.905487] {4294947377}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[  106.440673] {4294947431}spa_batt_work : temp=285, temp_adc=210, capacity=93, voltage=4200, vf_status=1
+<6>[  106.440704] {4294947431}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[  106.440734] {4294947431}spa_update_batt_info : capacity = 93
+<6>[  106.440734] {4294947431} notified capacity=93
+<6>[  106.440734] {4294947431}spa_update_batt_info : voltage = 4200
+<6>[  110.935516] {4294947880}update_eoc, eoc_count=0 batt_volt=4200 batt_curr=224
+<6>[  110.935516] {4294947880}change_fg_full_capacity, 0
+<6>[  110.935516] {4294947880}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[  110.935546] {4294947880}EM: capacity=93, volt=4200, curr=224, temp=275, die=0
+<6>[  110.935546] {4294947880}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[  111.470794] {4294947934}spa_batt_work : temp=284, temp_adc=210, capacity=93, voltage=4201, vf_status=1
+<6>[  111.470825] {4294947934}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[  111.470825] {4294947934}spa_update_batt_info : capacity = 93
+<6>[  111.470825] {4294947934} notified capacity=93
+<6>[  111.470855] {4294947934}spa_update_batt_info : voltage = 4201
+<6>[  115.964508] {4294948383}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=224
+<6>[  115.964508] {4294948383}change_fg_full_capacity, 0
+<6>[  115.964508] {4294948383}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[  115.964538] {4294948383}EM: capacity=93, volt=4204, curr=224, temp=275, die=0
+<6>[  115.964538] {4294948383}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[  116.500823] {4294948437}spa_batt_work : temp=284, temp_adc=210, capacity=93, voltage=4201, vf_status=1
+<6>[  116.500854] {4294948437}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[  116.500854] {4294948437}spa_update_batt_info : capacity = 93
+<6>[  116.500885] {4294948437} notified capacity=93
+<6>[  116.500885] {4294948437}spa_update_batt_info : voltage = 4201
+<6>[  120.994537] {4294948886}update_eoc, eoc_count=0 batt_volt=4204 batt_curr=223
+<6>[  120.994537] {4294948886}change_fg_full_capacity, 0
+<6>[  120.994567] {4294948886}notify_spa event=24, data=93, pchrgr_on=0x1
+<6>[  120.994567] {4294948886}EM: capacity=93, volt=4204, curr=223, temp=275, die=0
+<6>[  120.994567] {4294948886}bcmpmu_chrgr_spa_evt event=24, data=93
+<6>[  121.530670] {4294948940}spa_batt_work : temp=284, temp_adc=210, capacity=93, voltage=4202, vf_status=1
+<6>[  121.530700] {4294948940}spa_batt_work : charger type = 3, charging status =  1, 0
+<6>[  121.530731] {4294948940}spa_update_batt_info : capacity = 93
+<6>[  121.530731] {4294948940} notified capacity=93
+<6>[  121.530731] {4294948940}spa_update_batt_info : voltage = 4202
