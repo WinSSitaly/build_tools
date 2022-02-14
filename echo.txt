@@ -1,0 +1,11 @@
+echo "=========================================================================================="; \
+echo "MAKE ===================== $(MAKE)"; \ 
+echo "MAKE_FLAG ================ $(MAKE_FLAGS)"; \
+echo "KERNEL_SRC =============== $(KERNEL_SRC)"; \
+echo "KERNEL_OUT =============== $(KERNEL_OUT)"; \
+echo "KERNEL_ARCH ============== $(KERNEL_ARCH)"; \
+echo "KERNEL_CROSS_COMPILE ===== $(KERNEL_CROSS_COMPILE)"; \ 
+echo "KERNEL_CLANG_TRIPLE ====== $(KERNEL_CLANG_TRIPLE)"; \
+echo "KERNEL_CC ================ $(KERNEL_CC)"; \
+echo "KERNEL_MODULES_INSTALL === $(KERNEL_MODULES_INSTALL)"; \
+echo "========================================================================================="; \
